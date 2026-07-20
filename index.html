@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>جائزة الوزير للمبادرات والمشاريع المتميزة</title>
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="%231D3A8A"/><g transform="translate(30,30)"><path d="M6 3h28v6a14 14 0 0 1-14 14A14 14 0 0 1 6 9V3Z" fill="none" stroke="%23F59E0B" stroke-width="3" stroke-linejoin="round"/><path d="M6 5H2v2a6 6 0 0 0 6 6M34 5h4v2a6 6 0 0 1-6 6M20 23v8M14 38h12M16 31h8v7h-8z" fill="none" stroke="%23fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#F4F7FC;font-family:'IBM Plex Sans Arabic',system-ui,sans-serif;direction:rtl;color:#131B32;-webkit-font-smoothing:antialiased}
+  a{color:#2454C4;text-decoration:none}
+  a:hover{color:#1D3A8A}
+  button{font-family:'IBM Plex Sans Arabic',sans-serif}
+  ::-webkit-scrollbar{width:10px;height:10px}
+  ::-webkit-scrollbar-thumb{background:#D3DDEE;border-radius:8px}
+  @keyframes fadeup{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  html,body{overflow-x:hidden;max-width:100%}
+  img,svg,video{max-width:100%}
+  [data-mobile-toggle]{display:none}
+  .opt-h:hover{background:#F2F5FB}
+  /* ===== Tablet (<=1024) ===== */
+  @media(max-width:1024px){
+    [style*="repeat(6"]{grid-template-columns:repeat(3,1fr)!important}
+    [style*="repeat(4"]{grid-template-columns:repeat(2,1fr)!important}
+    [style*="repeat(3"]{grid-template-columns:repeat(2,1fr)!important}
+    [style*="1fr 340px"]{grid-template-columns:1fr!important}
+    [style*="1fr 320px"]{grid-template-columns:1fr!important}
+    [style*="1.6fr 1fr"]{grid-template-columns:1fr!important}
+    [style*="1.4fr 1fr"]{grid-template-columns:1fr!important}
+    [style*="1.5fr 1fr"]{grid-template-columns:1fr!important}
+    [style*="1.3fr 1fr 1fr"]{grid-template-columns:1fr!important}
+    [style*="top:80px"],[style*="top: 80px"]{position:static!important}
+    main[style*="display:flex"],main[style*="display: flex"]{flex-direction:column!important;min-height:auto!important}
+    aside[style*="width:236px"],aside[style*="width: 236px"]{width:100%!important;min-height:auto!important;padding-bottom:8px!important}
+    aside[style*="width:236px"]>div,aside[style*="width: 236px"]>div{display:inline-flex!important;width:auto!important}
+    [style*="width:480px"],[style*="width: 480px"]{width:100%!important}
+    div:has(> table){overflow-x:auto!important;-webkit-overflow-scrolling:touch}
+    table{min-width:560px}
+  }
+  /* ===== Phone / small tablet (<=768) ===== */
+  @media(max-width:768px){
+    [data-desktop-nav]{display:none!important}
+    [data-mobile-toggle]{display:flex!important}
+    [data-logo-sub]{display:none!important}
+    [style*="width:340px"],[style*="width: 340px"]{width:100%!important}
+    [style*="width:320px"],[style*="width: 320px"]{width:100%!important}
+    [style*="min-width:340px"],[style*="min-width: 340px"]{min-width:0!important}
+    [style*="min-width:260px"],[style*="min-width: 260px"]{min-width:0!important}
+    [style*="min-width:200px"],[style*="min-width: 200px"]{min-width:0!important}
+    [style*="1fr 1.2fr 1fr"]{grid-template-columns:1fr!important}
+    [style*="56px 40px"]{padding:38px 22px!important}
+    [style*="48px 40px"]{padding:34px 22px!important}
+    [style*="56px 52px"]{padding:38px 24px!important}
+    main[style*="padding:28px"],main[style*="padding: 28px"]{padding:20px 16px!important}
+    h1{font-size:27px!important}
+  }
+  /* ===== Small phone (<=480) ===== */
+  @media(max-width:480px){
+    [style*="repeat(6"]{grid-template-columns:repeat(2,1fr)!important}
+    [style*="repeat(4"]{grid-template-columns:repeat(2,1fr)!important}
+    [style*="repeat(3"]{grid-template-columns:1fr!important}
+    [style*="1fr 1fr"]{grid-template-columns:1fr!important}
+    [style*="white-space:nowrap"],[style*="white-space: nowrap"]{white-space:normal!important}
+    h1{font-size:23px!important}
+    h1[style*="40px"]{font-size:25px!important}
+  }
+  select{
+    -webkit-appearance:none;-moz-appearance:none;appearance:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23566079' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>");
+    background-repeat:no-repeat;background-position:left 13px center;
+    padding-inline-start:34px!important;
+    transition:border-color .15s ease, box-shadow .15s ease;
+  }
+  select:hover{border-color:#B7C6E0!important}
+  select:focus,input:focus,textarea:focus{outline:none!important;border-color:#1D3A8A!important;box-shadow:0 0 0 3px rgba(29,58,138,.14)!important}
+  select option{font-family:'IBM Plex Sans Arabic',sans-serif;color:#131B32;padding:8px}
+  input[type="date"]{position:relative;transition:border-color .15s ease, box-shadow .15s ease}
+  input[type="date"]:hover{border-color:#B7C6E0!important}
+  input[type="date"]::-webkit-calendar-picker-indicator{
+    cursor:pointer;opacity:.55;padding:3px;border-radius:6px;
+    filter:invert(23%) sepia(38%) saturate(1600%) hue-rotate(200deg) brightness(92%);
+    transition:opacity .15s ease, background .15s ease;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator:hover{opacity:1;background:#E7EDFA}
+  input[type="text"],input[type="password"],input:not([type]),textarea{transition:border-color .15s ease, box-shadow .15s ease}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript><p style="max-width:980px;margin:0 auto;padding:16px 20px;font-family:'IBM Plex Sans Arabic',sans-serif">تتطلب هذه الصفحة تفعيل JavaScript لعرض المنصة.</p></noscript>
+<script>
+'use strict';
+
+/* ================= State ================= */
+const S = {
+  view: 'home',
+  projView: 'grid',
+  voted: {},
+  faqOpen: { 0: true },
+  formStep: 1,
+  toast: null,
+  report: null,
+  nomPartners: [{ name: '', role: '' }],
+  nomTeam: [{ name: '', role: '' }],
+  tl: { launchS:'2026-08-15', launchE:'2026-09-30', nomS:'2026-09-01', nomE:'2026-11-30', voteS:'2026-12-01', voteE:'2026-12-20', winS:'2027-01-10', winE:'2027-01-15' },
+  modal: null,
+  adminTab: 'dashboard',
+  votingOpen: false,
+  showNotif: false,
+  phase: 'voting',
+  projSearch: '',
+  nomName: '',
+  formErr: false,
+  lang: 'ar',
+  mobileMenu: false,
+  reviewFilter: 'all',
+  openDd: null,
+  filterVals: {},
+  nom: {},
+  resultsAdmin: false,
+  winnersPublished: false,
+  rejectReason: '',
+  editNotes: '',
+};
+
+/* ================= Data ================= */
+const DD_DEFS = {
+  entity: ['كل الجهات', 'وزارة شؤون مجلس الوزراء', 'مكتب رئاسة مجلس الوزراء', 'المركز الاتحادي للتنافسية والإحصاء', 'الأمانة العامة لمجلس الوزراء', 'المكتب الإعلامي لحكومة دولة الامارات', 'مكتب التبادل المعرفي الحكومي', 'مكتب الذكاء الاصطناعي', 'مكتب المشاريع الاستراتيجية', 'مكتب التطوير الحكومي والمستقبل'],
+  type: ['النوع: الكل', 'مشروع', 'مبادرة'],
+  scope: ['نطاق التأثير: الكل', 'حكومي', 'وطني', 'عدة جهات', 'الجهة'],
+  sort: ['الترتيب: الأحدث', 'الأبجدي', 'الجهة'],
+  fscope: ['على مستوى الإدارة', 'على مستوى الجهة', 'على مستوى عدة جهات', 'على المستوى الحكومي', 'على المستوى الوطني'],
+  fresYear: ['2026', '2025', '2024'],
+  fentity: ['وزارة شؤون مجلس الوزراء', 'مكتب رئاسة مجلس الوزراء', 'الأمانة العامة لمجلس الوزراء', 'المركز الاتحادي للتنافسية والإحصاء', 'مكتب التبادل المعرفي الحكومي', 'المكتب الإعلامي لحكومة دولة الإمارات', 'مكتب المشاريع الاستراتيجية', 'الهيئة الاتحادية للذكاء الاصطناعي والبيانات', 'مكتب وزيرة دولة للتطوير الحكومي والمستقبل'],
+  fvotes: ['صوت واحد', 'صوتان', '3 أصوات'],
+  frepEd: ['2026', '2025', '2024'],
+  frepType: ['كل البيانات', 'الترشيحات', 'الجهات', 'التصويت'],
+};
+
+const PROJECTS = [
+  { name: 'منصة الخدمات الرقمية الموحّدة', entity: 'مكتب التطوير الحكومي والمستقبل', type: 'مبادرة', scope: 'نطاق: حكومي', blurb: 'دمج 120 خدمة حكومية في بوابة واحدة خفّضت زمن الإنجاز بنسبة 64%.' },
+  { name: 'نظام الرعاية المنزلية الذكي', entity: 'وزارة شؤون مجلس الوزراء', type: 'مشروع', scope: 'نطاق: وطني', blurb: 'متابعة المرضى المزمنين عن بُعد عبر أجهزة استشعار وتنبيهات فورية.' },
+  { name: 'مبادرة صفر أوراق', entity: 'الأمانة العامة لمجلس الوزراء', type: 'مبادرة', scope: 'نطاق: عدة جهات', blurb: 'تحويل كامل دورة الاعتمادات المالية إلى رقمية، وتوفير 2.1 مليون ورقة سنويًا.' },
+  { name: 'أكاديمية مهارات المستقبل', entity: 'مكتب التبادل المعرفي الحكومي', type: 'مشروع', scope: 'نطاق: حكومي', blurb: 'مسارات تدريب تكيّفية رفعت جاهزية 8,400 موظف للتحول الرقمي.' },
+  { name: 'خريطة الأثر المجتمعي', entity: 'المكتب الإعلامي لحكومة دولة الامارات', type: 'مبادرة', scope: 'نطاق: الجهة', blurb: 'لوحة بيانات جغرافية توجّه المبادرات المجتمعية حسب الاحتياج الفعلي.' },
+  { name: 'مساعد المعاملات بالذكاء الاصطناعي', entity: 'مكتب الذكاء الاصطناعي', type: 'مشروع', scope: 'نطاق: عدة جهات', blurb: 'مساعد ذكي يجيب المتعاملين ويصنّف الطلبات، خفّض زمن الرد إلى دقيقتين.' },
+];
+
+const badge = (bg, c) => `font:600 11px 'IBM Plex Sans Arabic';color:${c};background:${bg};padding:4px 11px;border-radius:20px`;
+const ROWS = [
+  { name: 'نظام الرعاية المنزلية الذكي', entity: 'وزارة شؤون مجلس الوزراء', type: 'مشروع', received: '2026-07-09', status: 'قيد المراجعة', badgeStyle: badge('#E9F0FB', '#2A6BC4') },
+  { name: 'مبادرة صفر أوراق', entity: 'الأمانة العامة لمجلس الوزراء', type: 'مبادرة', received: '2026-07-08', status: 'معتمد', badgeStyle: badge('#E7F4EE', '#1E8E5A') },
+  { name: 'بوابة الاستثمار الموحّدة', entity: 'المركز الاتحادي للتنافسية والإحصاء', type: 'مشروع', received: '2026-07-07', status: 'مطلوب تعديل', badgeStyle: badge('#FBF2E2', '#C8891B') },
+  { name: 'شبكة المستشعرات البيئية', entity: 'مكتب المشاريع الاستراتيجية', type: 'مبادرة', received: '2026-07-06', status: 'تم الإرسال', badgeStyle: badge('#EEF2F8', '#566079') },
+  { name: 'منصة التطوع الحكومي', entity: 'المكتب الإعلامي لحكومة دولة الامارات', type: 'مبادرة', received: '2026-07-05', status: 'مرفوض', badgeStyle: badge('#FBECEA', '#C0392B') },
+];
+
+const ENTITY_BADGE_OK = "font:600 10.5px 'IBM Plex Sans Arabic';color:#1E8E5A;background:#E7F4EE;padding:4px 10px;border-radius:20px";
+const ENTITY_BADGE_NO = "font:600 10.5px 'IBM Plex Sans Arabic';color:#C8891B;background:#FBF2E2;padding:4px 10px;border-radius:20px";
+const ENTITIES = [
+  { name: 'مكتب التطوير الحكومي والمستقبل', count: 3, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'وزارة شؤون مجلس الوزراء', count: 3, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'المركز الاتحادي للتنافسية والإحصاء', count: 2, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'الأمانة العامة لمجلس الوزراء', count: 3, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'المكتب الإعلامي لحكومة دولة الامارات', count: 2, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'مكتب التبادل المعرفي الحكومي', count: 2, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'مكتب الذكاء الاصطناعي', count: 3, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'مكتب المشاريع الاستراتيجية', count: 3, status: 'قدّمت', badge: ENTITY_BADGE_OK },
+  { name: 'مكتب رئاسة مجلس الوزراء', count: 0, status: 'لم تقدّم', badge: ENTITY_BADGE_NO },
+];
+
+const auditBadge = (bg, c) => `font:600 10.5px 'IBM Plex Sans Arabic';color:${c};background:${bg};padding:4px 10px;border-radius:20px`;
+const AUDIT = [
+  { action: 'اعتماد ترشيح', user: 'أحمد المنصوري', item: 'منصة الخدمات الرقمية الموحّدة', time: '2026-07-12 10:24', badge: auditBadge('#E7F4EE', '#1E8E5A') },
+  { action: 'طلب تعديل', user: 'موزة الحمادي', item: 'بوابة الاستثمار الموحّدة', time: '2026-07-12 09:50', badge: auditBadge('#FBF2E2', '#C8891B') },
+  { action: 'فتح التصويت', user: 'مدير النظام', item: 'النسخة السنوية 2026', time: '2026-07-11 16:05', badge: auditBadge('#E9F0FB', '#2A6BC4') },
+  { action: 'رفض ترشيح', user: 'أحمد المنصوري', item: 'منصة التطوع الحكومي', time: '2026-07-11 14:12', badge: auditBadge('#FBECEA', '#C0392B') },
+  { action: 'تعديل الجدول الزمني', user: 'مدير النظام', item: 'مرحلة التصويت العام', time: '2026-07-10 11:30', badge: auditBadge('#EEF2F8', '#566079') },
+  { action: 'استلام ترشيح', user: 'النظام', item: 'نظام الرعاية المنزلية الذكي', time: '2026-07-09 15:02', badge: auditBadge('#EEF2F8', '#566079') },
+];
+
+const userBadge = (bg, c) => `font:600 10.5px 'IBM Plex Sans Arabic';color:${c};background:${bg};padding:4px 10px;border-radius:20px;flex:none`;
+const USERS = [
+  { ini: 'أ م', name: 'أحمد المنصوري', entity: 'فريق الاستراتيجية', role: 'استراتيجية', badge: userBadge('#FBF2E2', '#8A5A12') },
+  { ini: 'س ك', name: 'سارة الكعبي', entity: 'وزارة شؤون مجلس الوزراء', role: 'مسؤول جهة', badge: userBadge('#E7EDFA', '#1D3A8A') },
+  { ini: 'ع ر', name: 'عبدالله الرميثي', entity: 'مكتب الذكاء الاصطناعي', role: 'مسؤول جهة', badge: userBadge('#E7EDFA', '#1D3A8A') },
+  { ini: 'ه ع', name: 'هند العلي', entity: 'إدارة النظام', role: 'مدير نظام', badge: userBadge('#FBECEA', '#C0392B') },
+];
+
+const FAQ_DATA = [
+  { q: 'من يحقّ له التصويت؟', a: 'جميع موظفي القطاع المسجّلين بالحساب المؤسسي، بصوت واحد لكل موظف خلال فترة التصويت المعلنة.' },
+  { q: 'كم عدد الترشيحات المسموح بها لكل جهة؟', a: 'ثلاثة مشاريع أو مبادرات كحدٍّ أقصى لكل جهة، ويمكن لفريق الاستراتيجية تعديل هذا الحد لكل نسخة.' },
+  { q: 'هل تُعرض أعداد الأصوات أثناء التصويت؟', a: 'لا، لضمان الحياد لا تُعرض النتائج المباشرة، وتُعلن بعد إغلاق التصويت وفق إعدادات النظام.' },
+  { q: 'هل هناك لجنة تقييم أو درجات؟', a: 'لا توجد لجنة تقييم ولا درجات؛ دور فريق الاستراتيجية مراجعة اكتمال البيانات واعتماد النشر فقط، والاختيار النهائي بأصوات الموظفين.' },
+];
+
+const RES_DATA = {
+  '2026': { w1: 'منصة الخدمات الرقمية الموحّدة', w1sub: 'مكتب التطوير الحكومي والمستقبل · مبادرة · نطاق حكومي', e1: 'مكتب التطوير الحكومي والمستقبل', v1: '1,842', p1: '24.6%', w2: 'نظام الرعاية المنزلية الذكي', e2: 'وزارة شؤون مجلس الوزراء', v2: '1,510', w3: 'مبادرة صفر أوراق', e3: 'الأمانة العامة لمجلس الوزراء', v3: '1,196', total: '7,486', part: '61%', count: '14' },
+  '2025': { w1: 'نظام التخطيط المؤسسي الذكي', w1sub: 'الأمانة العامة لمجلس الوزراء · مشروع · نطاق حكومي', e1: 'الأمانة العامة لمجلس الوزراء', v1: '1,655', p1: '25.1%', w2: 'منصة البيانات الوطنية المفتوحة', e2: 'الهيئة الاتحادية للذكاء الاصطناعي والبيانات', v2: '1,384', w3: 'برنامج التبادل المعرفي', e3: 'مكتب التبادل المعرفي الحكومي', v3: '1,027', total: '6,594', part: '57%', count: '12' },
+  '2024': { w1: 'مبادرة تبسيط الإجراءات الحكومية', w1sub: 'المركز الاتحادي للتنافسية والإحصاء · مبادرة · نطاق حكومي', e1: 'المركز الاتحادي للتنافسية والإحصاء', v1: '1,412', p1: '26.3%', w2: 'منصة المراسلات الحكومية الموحّدة', e2: 'مكتب رئاسة مجلس الوزراء', v2: '1,168', w3: 'مبادرة الهوية الإعلامية الموحّدة', e3: 'المكتب الإعلامي لحكومة دولة الإمارات', v3: '944', total: '5,371', part: '52%', count: '10' },
+};
+
+const REPORT_DEFS = {
+  nom: { title: 'تقرير الترشيحات', cols: ['المشروع / المبادرة', 'الجهة', 'النوع', 'الحالة'], rows: [
+    ['منصة الخدمات الرقمية الموحّدة', 'مكتب وزيرة دولة للتطوير الحكومي والمستقبل', 'مبادرة', 'معتمد'],
+    ['نظام رصد جودة الشبكة الوطنية', 'الهيئة الاتحادية للذكاء الاصطناعي والبيانات', 'مشروع', 'قيد المراجعة'],
+    ['برنامج التبادل المعرفي', 'مكتب التبادل المعرفي الحكومي', 'مبادرة', 'معتمد'],
+    ['مؤشرات التنافسية الوطنية', 'المركز الاتحادي للتنافسية والإحصاء', 'مشروع', 'مطلوب تعديل'],
+  ]},
+  ent: { title: 'تقرير الجهات المشاركة', cols: ['الجهة', 'الترشيحات', 'معتمد', 'قيد المراجعة'], rows: [
+    ['وزارة شؤون مجلس الوزراء', '3', '2', '1'],
+    ['الأمانة العامة لمجلس الوزراء', '2', '2', '0'],
+    ['مكتب المشاريع الاستراتيجية', '3', '1', '2'],
+    ['المكتب الإعلامي لحكومة دولة الإمارات', '1', '1', '0'],
+  ]},
+  vote: { title: 'تقرير نتائج التصويت', cols: ['المشروع / المبادرة', 'الجهة', 'الأصوات', 'الترتيب'], rows: [
+    ['منصة الخدمات الرقمية الموحّدة', 'مكتب وزيرة دولة للتطوير الحكومي والمستقبل', '1,284', '1'],
+    ['برنامج التبادل المعرفي', 'مكتب التبادل المعرفي الحكومي', '1,102', '2'],
+    ['مؤشرات التنافسية الوطنية', 'المركز الاتحادي للتنافسية والإحصاء', '968', '3'],
+    ['نظام رصد جودة الشبكة الوطنية', 'الهيئة الاتحادية للذكاء الاصطناعي والبيانات', '854', '4'],
+  ]},
+};
+
+const NOM_FALLBACK = {
+  name: 'نظام الرعاية المنزلية الذكي', dept: 'إدارة الخدمات المساندة',
+  summary: 'حل رقمي لمتابعة المرضى المزمنين في منازلهم عبر أجهزة استشعار مرتبطة بمركز عمليات صحي، مع تنبيهات فورية للفرق الطبية.',
+  description: 'يربط النظام أجهزة الاستشعار المنزلية بمنصة مركزية تراقب المؤشرات الحيوية على مدار الساعة، وتوجّه تنبيهات آلية للفرق الطبية عند تجاوز الحدود الآمنة.',
+  why: 'ارتفاع زيارات الطوارئ للحالات المزمنة التي يمكن متابعتها منزليًا، وحاجة الفرق الطبية لبيانات لحظية تدعم التدخل المبكر.',
+  objectives: 'تقليل الزيارات غير الضرورية، رفع جودة الرعاية المنزلية، وتمكين الاستجابة المبكرة للحالات الحرجة.',
+  problem: 'تشتّت متابعة المرضى المزمنين وصعوبة رصد تدهور الحالة في الوقت المناسب خارج المنشآت الصحية.',
+  results: 'خفض زيارات الطوارئ غير الضرورية، وتحسين زمن الاستجابة للحالات الحرجة.',
+  impact: 'نموذج رعاية منزلية قابل للتوسّع على مستوى القطاع الصحي، وتخفيف الضغط على أقسام الطوارئ.',
+  deliverables: 'منصة مراقبة مركزية · تطبيق للفرق الطبية · بروتوكول تنبيهات · لوحة متابعة الحالات.',
+  beneficiaries: 'المرضى المزمنون', progress: '85', startDate: '2025-03-01', endDate: 'قيد التشغيل', metrics: 'قيد الاستكمال',
+  contactName: 'سارة الكعبي', contactEmail: 's.alkaabi@gov.ae', contactPhone: '+971 50 123 4567',
+};
+
+/* ================= Helpers ================= */
+function escAttr(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function navStyle(active) {
+  return `border:none;background:${active ? '#E7EDFA' : 'transparent'};color:${active ? '#1D3A8A' : '#566079'};font:600 13px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:9px;cursor:pointer`;
+}
+const OPT_NORMAL = "padding:9px 12px;font:500 12.5px 'IBM Plex Sans Arabic';color:#3A4460;cursor:pointer;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:14px";
+const OPT_SEL = "padding:9px 12px;font:600 12.5px 'IBM Plex Sans Arabic';color:#1D3A8A;background:#E7EDFA;cursor:pointer;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:14px";
+
+function ddCurrent(key) { return S.filterVals[key] || DD_DEFS[key][0]; }
+
+function ddHtml(key, minW, opts) {
+  opts = opts || {};
+  const options = DD_DEFS[key];
+  const cur = ddCurrent(key);
+  const open = S.openDd === key;
+  const side = opts.side || 'right';
+  const trigger = `display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid ${open ? '#1D3A8A' : '#E2E8F2'};background:#fff;border-radius:10px;padding:9px 13px;font:500 13px 'IBM Plex Sans Arabic';color:#131B32;cursor:pointer;${minW};${open ? 'box-shadow:0 0 0 3px rgba(29,58,138,.12)' : ''}`;
+  const chev = `transition:transform .18s ease;transform:rotate(${open ? '180deg' : '0deg'});flex:none`;
+  const menuStyle = opts.scroll
+    ? `position:absolute;top:calc(100% + 6px);${side}:0;width:100%;max-height:280px;overflow-y:auto;background:#fff;border:1px solid #E2E8F2;border-radius:12px;box-shadow:0 14px 34px rgba(19,27,50,.16);padding:6px;z-index:60`
+    : `position:absolute;top:calc(100% + 6px);${side}:0;min-width:100%;background:#fff;border:1px solid #E2E8F2;border-radius:12px;box-shadow:0 14px 34px rgba(19,27,50,.16);padding:6px;z-index:60;white-space:nowrap`;
+  return `<div style="position:relative">
+    <div onclick="A.ddToggle('${key}')" style="${trigger}"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${cur}</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" style="${chev}"><path d="M6 9l6 6 6-6" stroke="#566079" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+    ${open ? `<div style="${menuStyle}">${options.map((o, i) => `<div class="opt-h" onclick="A.ddChoose('${key}',${i})" style="${o === cur ? OPT_SEL : OPT_NORMAL}"><span>${o}</span>${o === cur ? '<span style="color:#1D3A8A;font-weight:700;font-size:12px">✓</span>' : ''}</div>`).join('')}</div>` : ''}
+  </div>`;
+}
+
+function t(en, ar) { return S.lang === 'en' ? en : ar; }
+
+/* ================= Header ================= */
+function headerHtml() {
+  const v = S.view;
+  const en = S.lang === 'en';
+  const langAr = `border:none;font:600 11px 'IBM Plex Sans Arabic';padding:6px 12px;cursor:pointer;${!en ? 'background:#1D3A8A;color:#fff' : 'background:#fff;color:#566079'}`;
+  const langEn = `border:none;font:600 11px 'IBM Plex Sans Arabic';padding:6px 12px;cursor:pointer;${en ? 'background:#1D3A8A;color:#fff' : 'background:#fff;color:#566079'}`;
+  const navBtns = (extra) => `
+        <button onclick="A.go('home')" style="${navStyle(v === 'home')}${extra}">${t('Home', 'الرئيسية')}</button>
+        <button onclick="A.go('projects')" style="${navStyle(v === 'projects')}${extra}">${t('Projects & Initiatives', 'المشاريع والمبادرات')}</button>
+        <button onclick="A.go('entity')" style="${navStyle(v === 'entity')}${extra}">${t('Entity Panel', 'لوحة الجهة')}</button>
+        <button onclick="A.go('admin')" style="${navStyle(v === 'admin')}${extra}">${t('Strategy Panel', 'لوحة الاستراتيجية')}</button>`;
+  return `
+  <header style="position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(12px);border-bottom:1px solid #E2E8F2">
+    <div style="display:flex;align-items:center;gap:20px;padding:0 28px;height:64px">
+      <div style="display:flex;align-items:center;gap:11px;cursor:pointer" onclick="A.go('home')">
+        <div style="width:38px;height:38px;border-radius:11px;background:linear-gradient(145deg,#1D3A8A,#2454C4);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(29,58,138,.28)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 3h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V3Z" stroke="#F59E0B" stroke-width="1.7" stroke-linejoin="round"></path><path d="M6 4H4v1a3 3 0 0 0 3 3M18 4h2v1a3 3 0 0 1-3 3M12 12v4M9 20h6M10 16h4v4h-4z" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </div>
+        <div>
+          <div style="font:700 14px/1.15 'IBM Plex Sans Arabic';color:#131B32">جائزة الوزير للمبادرات والمشاريع المتميزة</div>
+          <div data-logo-sub style="font:500 10.5px/1.2 'IBM Plex Sans Arabic';color:#566079;letter-spacing:.02em">Minister's Award for Outstanding Initiatives · 2026</div>
+        </div>
+      </div>
+      <nav data-desktop-nav style="display:flex;gap:4px;margin-inline-start:auto">${navBtns('')}</nav>
+      <div style="display:flex;align-items:center;gap:8px;margin-inline-start:auto">
+        <button data-mobile-toggle onclick="A.toggleMobile()" style="align-items:center;justify-content:center;width:40px;height:40px;border:1px solid #E2E8F2;background:#fff;border-radius:10px;cursor:pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="#131B32" stroke-width="1.9" stroke-linecap="round"></path></svg></button>
+        <div data-desktop-nav style="display:flex;border:1px solid #E2E8F2;border-radius:9px;overflow:hidden;font:600 11px 'IBM Plex Sans Arabic'">
+          <button onclick="A.setLang('ar')" style="${langAr}">عربي</button>
+          <button onclick="A.setLang('en')" style="${langEn}">EN</button>
+        </div>
+        <div style="position:relative">
+          <button onclick="A.toggleNotif()" style="position:relative;width:38px;height:38px;border:1px solid #E2E8F2;background:#fff;border-radius:10px;cursor:pointer;display:flex;align-items:center;justify-content:center">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0" stroke="#131B32" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            <span style="position:absolute;top:7px;left:9px;width:8px;height:8px;border-radius:50%;background:#F59E0B;border:2px solid #fff"></span>
+          </button>
+          ${S.showNotif ? `
+            <div style="position:absolute;top:48px;left:0;width:340px;background:#fff;border:1px solid #E2E8F2;border-radius:16px;box-shadow:0 16px 40px rgba(19,27,50,.18);overflow:hidden;z-index:60">
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid #EEF2F8"><span style="font:700 14px 'IBM Plex Sans Arabic'">الإشعارات</span><span style="font:600 10px 'IBM Plex Sans Arabic';color:#1D3A8A;background:#E7EDFA;padding:3px 9px;border-radius:20px">3 جديدة</span></div>
+              <div style="display:flex;gap:11px;padding:13px 16px;border-bottom:1px solid #F4F7FC;background:#FbFcFe"><span style="width:34px;height:34px;border-radius:10px;background:#E7F4EE;color:#1E8E5A;display:flex;align-items:center;justify-content:center;flex:none;font:700 14px 'IBM Plex Sans Arabic'">✓</span><div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">تم اعتماد ترشيح جهتك</div><div style="font:400 11px/1.5 'IBM Plex Sans Arabic';color:#566079">«منصة الخدمات الرقمية» أصبحت منشورة للتصويت · قبل ساعة</div></div></div>
+              <div style="display:flex;gap:11px;padding:13px 16px;border-bottom:1px solid #F4F7FC;background:#FbFcFe"><span style="width:34px;height:34px;border-radius:10px;background:#FBF2E2;color:#C8891B;display:flex;align-items:center;justify-content:center;flex:none;font:700 14px 'IBM Plex Sans Arabic'">↻</span><div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">طلب تعديل على ترشيح</div><div style="font:400 11px/1.5 'IBM Plex Sans Arabic';color:#566079">يرجى إضافة مؤشرات أداء داعمة · قبل 3 ساعات</div></div></div>
+              <div style="display:flex;gap:11px;padding:13px 16px"><span style="width:34px;height:34px;border-radius:10px;background:#E9F0FB;color:#2A6BC4;display:flex;align-items:center;justify-content:center;flex:none;font:700 12px 'IBM Plex Sans Arabic'">⏳</span><div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">قرب انتهاء استقبال الترشيحات</div><div style="font:400 11px/1.5 'IBM Plex Sans Arabic';color:#566079">يتبقّى 141 يومًا على الإغلاق · أمس</div></div></div>
+              <div style="padding:11px 16px;text-align:center;border-top:1px solid #EEF2F8;font:600 12px 'IBM Plex Sans Arabic';color:#1D3A8A;cursor:pointer">عرض كل الإشعارات</div>
+            </div>` : ''}
+        </div>
+        <button onclick="A.go('login')" style="border:none;background:#F59E0B;color:#131B32;font:700 12px 'IBM Plex Sans Arabic';padding:9px 16px;border-radius:9px;cursor:pointer;box-shadow:0 3px 10px rgba(245,158,11,.28)">${t('Sign in', 'تسجيل الدخول')}</button>
+      </div>
+    </div>
+    ${S.mobileMenu ? `
+      <div onclick="A.closeMobile()" style="border-top:1px solid #E2E8F2;background:#fff;padding:12px;display:flex;flex-direction:column;gap:6px">
+        ${navBtns(';width:100%;justify-content:flex-start;text-align:right;padding:12px 14px')}
+        <div style="display:flex;border:1px solid #E2E8F2;border-radius:10px;overflow:hidden;font:600 12px 'IBM Plex Sans Arabic';margin-top:4px">
+          <button onclick="A.setLang('ar')" style="${langAr};flex:1;padding:10px">عربي</button>
+          <button onclick="A.setLang('en')" style="${langEn};flex:1;padding:10px">EN</button>
+        </div>
+      </div>` : ''}
+  </header>`;
+}
+
+/* ================= FAQ / ABOUT ================= */
+function viewFaq() {
+  return `
+  <main style="animation:fadeup .4s ease">
+    <section style="background:linear-gradient(135deg,#16296B,#1D3A8A 60%,#2454C4);color:#fff;padding:48px 40px;text-align:center">
+      <div style="font:600 11px 'IBM Plex Sans Arabic';color:#F59E0B;letter-spacing:.08em;margin-bottom:10px">عن الجائزة</div>
+      <h1 style="font:700 32px 'IBM Plex Sans Arabic';margin:0 0 12px">جائزة الوزير للمبادرات والمشاريع المتميزة</h1>
+      <p style="font:400 15px/1.95 'IBM Plex Sans Arabic';color:#C9D5EF;max-width:760px;margin:0 auto">تأتي جائزة المشاريع والمبادرات المتميزة بهدف ترسيخ ثقافة التميز المؤسسي ودعم تحقيق الأهداف الاستراتيجية للجهات، من خلال إبراز المشاريع والمبادرات المتميزة وتحفيزهم على تبنّي أفضل الممارسات في إدارة المشاريع والمبادرات. كما تمثل الجائزة منصة لتقدير الإنجازات النوعية وإبراز النماذج الناجحة، وتعزيز التنافس الإيجابي بين فرق العمل بما يدعم الابتكار والاستدامة وتحقيق القيمة المضافة. وترتكز الجائزة على تقييم المشاريع من خلال نظام التصويت، بما يضمن اختيار المشاريع والمبادرات الأكثر تميزًا وتأثيرًا بتصويت الأغلبية.</p>
+    </section>
+
+    <section style="max-width:900px;margin:44px auto 0;padding:0 24px">
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:40px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;text-align:center"><div style="font:700 15px 'IBM Plex Sans Arabic';color:#1D3A8A;margin-bottom:6px">من يرشّح؟</div><div style="font:400 12.5px/1.7 'IBM Plex Sans Arabic';color:#566079">الجهات المشاركة، بحد أقصى 3 ترشيحات لكل جهة.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;text-align:center"><div style="font:700 15px 'IBM Plex Sans Arabic';color:#1D3A8A;margin-bottom:6px">من يعتمد؟</div><div style="font:400 12.5px/1.7 'IBM Plex Sans Arabic';color:#566079">فريق الاستراتيجية يراجع اكتمال البيانات ويعتمد النشر.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;text-align:center"><div style="font:700 15px 'IBM Plex Sans Arabic';color:#1D3A8A;margin-bottom:6px">من يقرّر؟</div><div style="font:400 12.5px/1.7 'IBM Plex Sans Arabic';color:#566079">الموظفون المصوّتون يختارون الفائزين بأصواتهم.</div></div>
+      </div>
+
+      <h2 style="font:700 22px 'IBM Plex Sans Arabic';margin:0 0 18px">الأسئلة الشائعة</h2>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px 20px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:7px">من يحقّ له التصويت؟</div><div style="font:400 13px/1.85 'IBM Plex Sans Arabic';color:#566079">جميع موظفي القطاع المسجّلين بالحساب المؤسسي، بصوت واحد لكل موظف خلال فترة التصويت المعلنة، مع منع التصويت المتكرر.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px 20px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:7px">كم عدد الترشيحات لكل جهة؟</div><div style="font:400 13px/1.85 'IBM Plex Sans Arabic';color:#566079">ثلاثة مشاريع أو مبادرات كحدٍّ أقصى لكل جهة، ويمكن لفريق الاستراتيجية تعديل هذا الحد لكل نسخة سنوية.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px 20px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:7px">هل تُعرض أعداد الأصوات أثناء التصويت؟</div><div style="font:400 13px/1.85 'IBM Plex Sans Arabic';color:#566079">لا، حفاظًا على الحياد لا تُعرض النتائج المباشرة، وتُعلن بعد إغلاق التصويت وفق إعدادات النظام.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px 20px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:7px">هل توجد لجنة تقييم أو درجات؟</div><div style="font:400 13px/1.85 'IBM Plex Sans Arabic';color:#566079">لا توجد لجنة تقييم ولا درجات؛ دور فريق الاستراتيجية مراجعة اكتمال البيانات وأهلية النشر فقط، والاختيار النهائي بأصوات الموظفين.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px 20px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:7px">ماذا لو طُلب مني تعديل الترشيح؟</div><div style="font:400 13px/1.85 'IBM Plex Sans Arabic';color:#566079">يعود الترشيح إلى الجهة بحالة «مطلوب تعديل» مع ملاحظات فريق الاستراتيجية، ويمكن إعادة إرساله بعد الاستكمال.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px 20px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:7px">هل يمكن تعديل الصوت بعد التأكيد؟</div><div style="font:400 13px/1.85 'IBM Plex Sans Arabic';color:#566079">افتراضيًا لا يمكن تعديل الصوت بعد تسجيله، إلا إذا سمحت إعدادات النظام بذلك.</div></div>
+      </div>
+
+      <div style="background:#F4F7FC;border:1px solid #E2E8F2;border-radius:16px;padding:24px;text-align:center;margin:32px 0 64px">
+        <div style="font:700 16px 'IBM Plex Sans Arabic';margin-bottom:6px">لديك سؤال آخر؟</div>
+        <div style="font:400 13px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:16px">تواصل مع فريق تنظيم الجائزة عبر البريد المؤسسي.</div>
+        <span style="font:600 13px 'IBM Plex Sans Arabic';color:#1D3A8A;background:#E7EDFA;padding:9px 18px;border-radius:10px;direction:ltr;display:inline-block">award@gov.ae</span>
+      </div>
+    </section>
+  </main>`;
+}
+
+/* ================= LOGIN ================= */
+function viewLogin() {
+  return `
+  <main style="display:flex;min-height:calc(100vh - 64px);animation:fadeup .4s ease">
+    <div style="flex:1;min-width:0;position:relative;background:linear-gradient(140deg,#12235C 0%,#1D3A8A 55%,#2454C4 100%);color:#fff;padding:56px 52px;display:flex;flex-direction:column;justify-content:center;overflow:hidden">
+      <div style="position:absolute;inset:0;background:radial-gradient(circle at 82% 12%,rgba(245,158,11,.20),transparent 40%),radial-gradient(circle at 8% 92%,rgba(37,84,196,.55),transparent 46%)"></div>
+      <div style="position:absolute;top:-120px;left:-120px;width:360px;height:360px;border-radius:50%;border:1px solid rgba(255,255,255,.07)"></div>
+      <div style="position:absolute;top:-70px;left:-70px;width:260px;height:260px;border-radius:50%;border:1px solid rgba(255,255,255,.06)"></div>
+      <div style="position:absolute;bottom:-90px;right:-60px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(245,158,11,.10),transparent 70%)"></div>
+      <div style="position:relative;max-width:440px">
+        <div style="display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);padding:7px 14px;border-radius:30px;margin-bottom:28px">
+          <span style="width:34px;height:34px;border-radius:10px;background:linear-gradient(145deg,rgba(245,158,11,.25),rgba(245,158,11,.12));border:1px solid rgba(245,158,11,.45);display:flex;align-items:center;justify-content:center"><svg width="19" height="19" viewBox="0 0 24 24" fill="none"><path d="M6 3h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V3Z" stroke="#F59E0B" stroke-width="1.7" stroke-linejoin="round"></path><path d="M6 4H4v1a3 3 0 0 0 3 3M18 4h2v1a3 3 0 0 1-3 3M12 12v4M9 20h6M10 16h4v4h-4z" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+          <span style="font:600 12px 'IBM Plex Sans Arabic';color:#EDE3CF">النسخة السنوية · 2026</span>
+        </div>
+        <h1 style="font:700 34px/1.35 'IBM Plex Sans Arabic';margin:0 0 16px;letter-spacing:-.01em">جائزة الوزير للمبادرات<br>والمشاريع المتميزة</h1>
+        <p style="font:400 15px/1.95 'IBM Plex Sans Arabic';color:#C4D2EE;margin:0;max-width:400px">منصة سنوية على مستوى الجهات الحكومية لترشيح أفضل المشاريع والمبادرات، واختيار الفائزين بأصوات الموظفين.</p>
+        <div style="display:flex;gap:10px;margin-top:36px">
+          <div style="flex:1;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:16px 14px"><div style="font:700 28px 'IBM Plex Sans Arabic';color:#F59E0B;direction:ltr">2026</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#A9B9DE;margin-top:3px">النسخة الحالية</div></div>
+          <div style="flex:1;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:16px 14px"><div style="font:700 28px 'IBM Plex Sans Arabic';direction:ltr">21</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#A9B9DE;margin-top:3px">ترشيحًا</div></div>
+          <div style="flex:1;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:16px 14px"><div style="font:700 28px 'IBM Plex Sans Arabic';direction:ltr">8</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#A9B9DE;margin-top:3px">جهات مشاركة</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:9px;margin-top:30px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1)">
+          <div style="display:flex">
+            <span style="width:28px;height:28px;border-radius:50%;background:#2E4EA0;border:2px solid #1D3A8A;display:flex;align-items:center;justify-content:center;font:700 9px 'IBM Plex Sans Arabic';color:#fff">أم</span>
+            <span style="width:28px;height:28px;border-radius:50%;background:#2A6BC4;border:2px solid #1D3A8A;margin-inline-start:-9px;display:flex;align-items:center;justify-content:center;font:700 9px 'IBM Plex Sans Arabic';color:#fff">سك</span>
+            <span style="width:28px;height:28px;border-radius:50%;background:#C8891B;border:2px solid #1D3A8A;margin-inline-start:-9px;display:flex;align-items:center;justify-content:center;font:700 9px 'IBM Plex Sans Arabic';color:#fff">عر</span>
+          </div>
+          <span style="font:500 12px 'IBM Plex Sans Arabic';color:#A9B9DE">آلاف الموظفين يشاركون في اختيار الفائزين كل عام</span>
+        </div>
+      </div>
+    </div>
+    <div style="width:480px;flex:none;display:flex;align-items:center;justify-content:center;padding:40px 44px;background:#fff">
+      <div style="width:100%;max-width:340px">
+        <div style="display:inline-flex;align-items:center;gap:7px;background:#E7F4EE;border-radius:20px;padding:5px 12px;margin-bottom:16px"><span style="width:7px;height:7px;border-radius:50%;background:#1E8E5A"></span><span style="font:600 11px 'IBM Plex Sans Arabic';color:#1E8E5A">تم التعرّف عليك عبر الدخول الموحّد</span></div>
+        <div style="font:700 22px 'IBM Plex Sans Arabic';margin-bottom:6px">مرحبًا بعودتك</div>
+        <p style="font:400 13px/1.7 'IBM Plex Sans Arabic';color:#566079;margin:0 0 22px">لا حاجة لإدخال اسم مستخدم أو كلمة مرور — يتعرّف النظام على حسابك المؤسسي تلقائيًا.</p>
+
+        <div style="display:flex;align-items:center;gap:12px;background:#F7F9FD;border:1px solid #E2E8F2;border-radius:14px;padding:14px;margin-bottom:20px">
+          <span style="width:46px;height:46px;border-radius:50%;background:#1D3A8A;color:#fff;display:flex;align-items:center;justify-content:center;font:700 15px 'IBM Plex Sans Arabic';flex:none">س ك</span>
+          <div style="flex:1;min-width:0"><div style="font:700 14px 'IBM Plex Sans Arabic'">سارة الكعبي</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079;direction:ltr;text-align:right">s.alkaabi@gov.ae</div></div>
+          <span style="font:600 10px 'IBM Plex Sans Arabic';color:#1D3A8A;background:#E7EDFA;padding:4px 9px;border-radius:20px;flex:none">مسؤول جهة</span>
+        </div>
+
+        <button onclick="A.doLogin()" style="width:100%;display:flex;align-items:center;justify-content:center;gap:10px;border:none;background:#1D3A8A;color:#fff;font:700 14px 'IBM Plex Sans Arabic';padding:14px;border-radius:12px;cursor:pointer;box-shadow:0 6px 16px rgba(29,58,138,.25)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          المتابعة إلى المنصة
+        </button>
+        <div style="display:flex;align-items:center;justify-content:center;gap:6px;font:400 11px/1.7 'IBM Plex Sans Arabic';color:#98A3BC;text-align:center;margin-top:18px">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style="flex:none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" stroke="#98A3BC" stroke-width="1.6" stroke-linejoin="round"></path></svg>
+          جلسة آمنة عبر نظام التسجيل الموحّد للموظفين
+        </div>
+      </div>
+    </div>
+  </main>`;
+}
+
+/* ================= HOME ================= */
+function viewHome() {
+  const faqs = FAQ_DATA.map((f, i) => {
+    const open = !!S.faqOpen[i];
+    return `
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:13px;margin-bottom:10px;overflow:hidden">
+          <div onclick="A.faqToggle(${i})" style="display:flex;align-items:center;justify-content:space-between;padding:16px 18px;cursor:pointer">
+            <span style="font:600 14px 'IBM Plex Sans Arabic'">${f.q}</span>
+            <span style="font:700 18px 'IBM Plex Sans Arabic';color:#F59E0B">${open ? '−' : '+'}</span>
+          </div>
+          ${open ? `<div style="padding:0 18px 16px;font:400 13px/1.8 'IBM Plex Sans Arabic';color:#566079">${f.a}</div>` : ''}
+        </div>`;
+  }).join('');
+  return `
+  <main style="animation:fadeup .4s ease">
+    <section style="position:relative;background:linear-gradient(135deg,#16296B 0%,#1D3A8A 45%,#2454C4 100%);color:#fff;overflow:hidden;padding:56px 40px 64px">
+      <div style="position:absolute;inset:0;background:radial-gradient(circle at 85% 20%,rgba(245,158,11,.22),transparent 42%),radial-gradient(circle at 10% 90%,rgba(37,84,196,.5),transparent 45%)"></div>
+      <div style="position:relative;display:flex;gap:48px;align-items:center;flex-wrap:wrap">
+        <div style="flex:1;min-width:340px">
+          <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:6px 13px;border-radius:30px;font:600 12px 'IBM Plex Sans Arabic';margin-bottom:20px">
+            <span style="width:7px;height:7px;border-radius:50%;background:#F59E0B"></span>${t('2026 Edition · Voting opens soon', 'النسخة السنوية 2026 · التصويت سيُفتح قريبًا')}
+          </div>
+          <h1 style="font:700 40px/1.25 'IBM Plex Sans Arabic';margin:0 0 16px;letter-spacing:-.01em">${t('Celebrating initiatives and projects that make an impact', 'نحتفي بالمبادرات والمشاريع التي تصنع الأثر')}</h1>
+          <p style="font:400 16px/1.8 'IBM Plex Sans Arabic';color:#C9D5EF;margin:0 0 28px;max-width:520px">${t('An annual government-wide award where entities nominate their best projects and initiatives, and employees choose the winners by vote.', 'جائزة سنوية على مستوى الجهات الحكومية، تُرشّح فيها الجهات أفضل مشاريعها ومبادراتها، ويختار موظفو القطاع الفائزين بأصواتهم.')}</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <button onclick="A.go('form')" style="border:none;background:#F59E0B;color:#131B32;font:700 14px 'IBM Plex Sans Arabic';padding:13px 26px;border-radius:11px;cursor:pointer;box-shadow:0 6px 18px rgba(245,158,11,.35)">${t('Submit a nomination', 'قدّم ترشيحًا')}</button>
+            <button onclick="A.go('projects')" style="border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:#fff;font:600 14px 'IBM Plex Sans Arabic';padding:13px 26px;border-radius:11px;cursor:pointer">${t('Browse projects', 'استعرض المشاريع')}</button>
+          </div>
+        </div>
+        <div style="flex:none;width:340px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:20px;padding:26px;backdrop-filter:blur(6px)">
+          <div style="font:600 13px 'IBM Plex Sans Arabic';color:#C9D5EF;margin-bottom:4px">${t('Nominations close in', 'ينتهي استقبال الترشيحات خلال')}</div>
+          <div style="display:flex;gap:9px;margin:16px 0 8px">
+            <div style="flex:1;text-align:center;background:rgba(0,0,0,.18);border-radius:12px;padding:12px 6px"><div data-cd="d" style="font:700 28px 'IBM Plex Sans Arabic';direction:ltr">--</div><div style="font:500 10px 'IBM Plex Sans Arabic';color:#A9B9DE">${t('days', 'يوم')}</div></div>
+            <div style="flex:1;text-align:center;background:rgba(0,0,0,.18);border-radius:12px;padding:12px 6px"><div data-cd="h" style="font:700 28px 'IBM Plex Sans Arabic';direction:ltr">--</div><div style="font:500 10px 'IBM Plex Sans Arabic';color:#A9B9DE">${t('hrs', 'ساعة')}</div></div>
+            <div style="flex:1;text-align:center;background:rgba(0,0,0,.18);border-radius:12px;padding:12px 6px"><div data-cd="m" style="font:700 28px 'IBM Plex Sans Arabic';direction:ltr">--</div><div style="font:500 10px 'IBM Plex Sans Arabic';color:#A9B9DE">${t('min', 'دقيقة')}</div></div>
+            <div style="flex:1;text-align:center;background:rgba(0,0,0,.18);border-radius:12px;padding:12px 6px"><div data-cd="s" style="font:700 28px 'IBM Plex Sans Arabic';direction:ltr">--</div><div style="font:500 10px 'IBM Plex Sans Arabic';color:#A9B9DE">${t('sec', 'ثانية')}</div></div>
+          </div>
+          <div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#A9B9DE;text-align:center">${t('Deadline: 30 November 2026', 'الموعد النهائي: 30 نوفمبر 2026')}</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="max-width:1080px;margin:56px auto 0;padding:0 24px">
+      <div style="text-align:center;margin-bottom:32px">
+        <div style="font:700 11px 'IBM Plex Sans Arabic';color:#F59E0B;letter-spacing:.08em;margin-bottom:8px">أهداف الجائزة</div>
+        <h2 style="font:700 26px 'IBM Plex Sans Arabic';margin:0;color:#131B32">لماذا هذه الجائزة؟</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px"><div style="width:44px;height:44px;border-radius:12px;background:#E7EDFA;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2v6m0 8v6M4.9 4.9l4.2 4.2m5.8 5.8 4.2 4.2M2 12h6m8 0h6" stroke="#1D3A8A" stroke-width="1.8" stroke-linecap="round"></path></svg></div><div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:6px">ثقافة التميز والابتكار</div><div style="font:400 12.5px/1.75 'IBM Plex Sans Arabic';color:#566079">تعزيز ثقافة التميز والابتكار في إدارة المشاريع والمبادرات.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px"><div style="width:44px;height:44px;border-radius:12px;background:#FBEFD9;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 17l6-6 4 4 8-8M15 7h6v6" stroke="#C8891B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:6px">تطوير العمل الحكومي</div><div style="font:400 12.5px/1.75 'IBM Plex Sans Arabic';color:#566079">تطوير العمل والأثر الحكومي من خلال المشاريع والمبادرات ذات الأثر العالي.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px"><div style="width:44px;height:44px;border-radius:12px;background:#E4F3EC;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4 12 14.01l-3-3" stroke="#1E8E5A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:6px">تكريم الأثر الملموس</div><div style="font:400 12.5px/1.75 'IBM Plex Sans Arabic';color:#566079">تكريم المشاريع والمبادرات التي حققت أثرًا ملموسًا وقيمة مضافة على مستوى الحكومة أو الجهة أو المجتمع.</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px"><div style="width:44px;height:44px;border-radius:12px;background:#EEE9FB;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15Z" stroke="#6B4FBB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:6px">قاعدة معرفية</div><div style="font:400 12.5px/1.75 'IBM Plex Sans Arabic';color:#566079">بناء قاعدة معرفية للمبادرات المتميزة يمكن الاستفادة منها في تطوير المشاريع المستقبلية.</div></div>
+      </div>
+    </section>
+
+    <section style="max-width:1080px;margin:56px auto 0;padding:0 24px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
+        <h2 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">مشاريع مختارة</h2>
+        <button onclick="A.go('projects')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 12.5px 'IBM Plex Sans Arabic';padding:9px 16px;border-radius:10px;cursor:pointer">عرض الكل ←</button>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+        ${PROJECTS.slice(0, 3).map(p => `
+          <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden;box-shadow:0 4px 14px rgba(19,27,50,.05)">
+            <div style="height:130px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 10px,#E1E9F5 10px,#E1E9F5 20px);display:flex;align-items:center;justify-content:center;font:600 11px ui-monospace;color:#98A3BC">صورة المشروع</div>
+            <div style="padding:16px">
+              <div style="display:flex;gap:6px;margin-bottom:8px">
+                <span style="font:600 10px 'IBM Plex Sans Arabic';color:#2454C4;background:#E7EDFA;padding:3px 9px;border-radius:20px">${p.type}</span>
+                <span style="font:600 10px 'IBM Plex Sans Arabic';color:#566079;background:#F4F7FC;padding:3px 9px;border-radius:20px">${p.scope}</span>
+              </div>
+              <div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:4px">${p.name}</div>
+              <div style="font:500 12px 'IBM Plex Sans Arabic';color:#566079">${p.entity}</div>
+            </div>
+          </div>`).join('')}
+      </div>
+    </section>
+
+    <section style="max-width:820px;margin:56px auto 0;padding:0 24px">
+      <h2 style="font:700 22px 'IBM Plex Sans Arabic';margin:0 0 20px;text-align:center">الأسئلة الشائعة</h2>
+      ${faqs}
+    </section>
+
+    <footer style="margin-top:64px;background:#131B32;color:#A9B9DE;padding:30px 40px;text-align:center">
+      <div style="display:flex;gap:20px;justify-content:center;margin-bottom:14px;flex-wrap:wrap">
+        <button onclick="A.go('faq')" style="border:none;background:none;font:600 12.5px 'IBM Plex Sans Arabic';color:#C9D5EF;cursor:pointer">عن الجائزة</button>
+        <button onclick="A.go('faq')" style="border:none;background:none;font:600 12.5px 'IBM Plex Sans Arabic';color:#C9D5EF;cursor:pointer">الأسئلة الشائعة</button>
+        <button onclick="A.go('projects')" style="border:none;background:none;font:600 12.5px 'IBM Plex Sans Arabic';color:#C9D5EF;cursor:pointer">المشاريع</button>
+        <button onclick="A.go('login')" style="border:none;background:none;font:600 12.5px 'IBM Plex Sans Arabic';color:#C9D5EF;cursor:pointer">تسجيل الدخول</button>
+      </div>
+      <div style="font:500 12px 'IBM Plex Sans Arabic';color:#6B7699">جائزة الوزير للمبادرات والمشاريع المتميزة — النسخة السنوية 2026 · جميع الحقوق محفوظة</div>
+    </footer>
+  </main>`;
+}
+
+/* ================= PROJECTS ================= */
+function filteredProjects() {
+  const q = S.projSearch.trim();
+  const fv = S.filterVals;
+  let list = PROJECTS.filter(p => {
+    if (q && !(p.name + p.entity).includes(q)) return false;
+    if (fv.entity && fv.entity !== 'كل الجهات' && p.entity !== fv.entity) return false;
+    if (fv.type && fv.type !== 'النوع: الكل' && p.type !== fv.type) return false;
+    if (fv.scope && fv.scope !== 'نطاق التأثير: الكل' && !p.scope.includes(fv.scope)) return false;
+    return true;
+  });
+  if (fv.sort === 'الأبجدي') list = [...list].sort((a, b) => a.name.localeCompare(b.name, 'ar'));
+  else if (fv.sort === 'الجهة') list = [...list].sort((a, b) => a.entity.localeCompare(b.entity, 'ar'));
+  return list;
+}
+
+function projectCard(p) {
+  const i = PROJECTS.indexOf(PROJECTS.find(x => x.name === p.name));
+  const phase = S.phase;
+  const on = !!S.voted[i];
+  let voteStyle, voteLabel, voteAction;
+  if (phase === 'before') {
+    voteStyle = `flex:1;border:1px solid #E2E8F2;background:#F4F7FC;color:#98A3BC;font:600 12px 'IBM Plex Sans Arabic';padding:10px;border-radius:10px;cursor:not-allowed`;
+    voteLabel = 'لم يبدأ التصويت';
+    voteAction = `A.voteBefore()`;
+  } else if (phase === 'ended') {
+    voteStyle = `flex:1;border:1px solid #C9D5EA;background:#fff;color:#1D3A8A;font:600 12px 'IBM Plex Sans Arabic';padding:10px;border-radius:10px;cursor:pointer`;
+    voteLabel = 'انتهى التصويت · النتائج';
+    voteAction = `A.go('results')`;
+  } else {
+    voteStyle = on
+      ? `flex:1;border:none;background:#1E8E5A;color:#fff;font:600 12.5px 'IBM Plex Sans Arabic';padding:10px;border-radius:10px;cursor:pointer`
+      : `flex:1;border:none;background:#F59E0B;color:#131B32;font:700 12.5px 'IBM Plex Sans Arabic';padding:10px;border-radius:10px;cursor:pointer`;
+    voteLabel = on ? '✓ تم التصويت' : 'تصويت';
+    voteAction = `A.vote(${i})`;
+  }
+  return `
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden;box-shadow:0 4px 14px rgba(19,27,50,.05);display:flex;flex-direction:column">
+          <div style="height:150px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 10px,#E1E9F5 10px,#E1E9F5 20px);display:flex;align-items:center;justify-content:center;font:600 11px ui-monospace;color:#98A3BC;position:relative">
+            صورة المشروع
+            <span style="position:absolute;top:12px;left:12px;font:600 10px 'IBM Plex Sans Arabic';color:#fff;background:rgba(19,27,50,.72);padding:4px 10px;border-radius:20px">${p.scope}</span>
+          </div>
+          <div style="padding:16px;display:flex;flex-direction:column;flex:1">
+            <div style="display:flex;gap:6px;margin-bottom:9px">
+              <span style="font:600 10px 'IBM Plex Sans Arabic';color:#2454C4;background:#E7EDFA;padding:3px 9px;border-radius:20px">${p.type}</span>
+            </div>
+            <div style="font:700 16px/1.4 'IBM Plex Sans Arabic';margin-bottom:5px">${p.name}</div>
+            <div style="font:500 12px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:9px">${p.entity}</div>
+            <div style="font:400 12.5px/1.7 'IBM Plex Sans Arabic';color:#566079;margin-bottom:16px">${p.blurb}</div>
+            <div style="display:flex;gap:8px;margin-top:auto">
+              <button onclick="A.go('detail')" style="flex:1;border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 12.5px 'IBM Plex Sans Arabic';padding:10px;border-radius:10px;cursor:pointer">عرض التفاصيل</button>
+              <button onclick="${voteAction}" style="${voteStyle}">${voteLabel}</button>
+            </div>
+          </div>
+        </div>`;
+}
+
+function viewProjects() {
+  const phase = S.phase;
+  const phaseBtn = (on) => `border:none;background:${on ? '#1D3A8A' : '#fff'};color:${on ? '#fff' : '#566079'};font:600 11.5px 'IBM Plex Sans Arabic';padding:8px 13px;cursor:pointer`;
+  const grid = S.projView === 'grid';
+  const segBtn = (on) => `border:none;background:${on ? '#1D3A8A' : '#fff'};color:${on ? '#fff' : '#566079'};font:600 12px 'IBM Plex Sans Arabic';padding:9px 15px;cursor:pointer`;
+  const list = filteredProjects();
+  const gridStyle = grid
+    ? 'display:grid;grid-template-columns:repeat(3,1fr);gap:18px'
+    : 'display:grid;grid-template-columns:1fr;gap:14px';
+  return `
+  <main style="max-width:1180px;margin:0 auto;padding:32px 28px 64px;animation:fadeup .4s ease">
+    <div style="margin-bottom:8px"><span style="font:600 11px 'IBM Plex Sans Arabic';color:#F59E0B;letter-spacing:.06em">المشاريع والمبادرات المعتمدة</span></div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:22px">
+      <div><h1 style="font:700 28px 'IBM Plex Sans Arabic';margin:0">استعرض المشاريع وصوّت</h1><p style="font:400 13.5px 'IBM Plex Sans Arabic';color:#566079;margin:6px 0 0">التصويت متاح للموظفين المسجّلين خلال فترة التصويت · صوت واحد لكل موظف</p></div>
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:7px"><span style="font:500 11px 'IBM Plex Sans Arabic';color:#98A3BC">معاينة المرحلة:</span><div style="display:flex;background:#fff;border:1px solid #E2E8F2;border-radius:10px;overflow:hidden"><button onclick="A.setPhase('before')" style="${phaseBtn(phase === 'before')}">قبل</button><button onclick="A.setPhase('voting')" style="${phaseBtn(phase === 'voting')}">أثناء</button><button onclick="A.setPhase('ended')" style="${phaseBtn(phase === 'ended')}">بعد</button></div></div>
+        <div style="display:flex;background:#fff;border:1px solid #E2E8F2;border-radius:10px;overflow:hidden">
+          <button onclick="A.setProjView('grid')" style="${segBtn(grid)}">▦ شبكة</button>
+          <button onclick="A.setProjView('list')" style="${segBtn(!grid)}">☰ قائمة</button>
+        </div>
+      </div>
+    </div>
+
+    ${phase === 'ended' ? `
+      <div style="display:flex;align-items:center;gap:10px;background:#E7EDFA;border:1px solid #C9D5EA;border-radius:12px;padding:12px 16px;margin-bottom:18px"><span style="font:700 13px 'IBM Plex Sans Arabic';color:#1D3A8A">انتهى التصويت</span><span style="font:400 12.5px 'IBM Plex Sans Arabic';color:#3A4460">أُغلق التصويت وأصبحت النتائج متاحة. يمكنك استعراض الترتيب النهائي.</span><button onclick="A.go('results')" style="margin-inline-start:auto;border:none;background:#1D3A8A;color:#fff;font:600 11.5px 'IBM Plex Sans Arabic';padding:8px 15px;border-radius:9px;cursor:pointer">عرض النتائج</button></div>` : ''}
+    ${phase === 'before' ? `
+      <div style="display:flex;align-items:center;gap:10px;background:#F4F7FC;border:1px solid #E2E8F2;border-radius:12px;padding:12px 16px;margin-bottom:18px"><span style="font:700 13px 'IBM Plex Sans Arabic';color:#566079">لم يبدأ التصويت بعد</span><span style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079">يبدأ التصويت في 1 ديسمبر 2026. يمكنك تصفّح المشاريع المعتمدة الآن.</span></div>` : ''}
+
+    <div style="display:flex;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:14px;margin-bottom:22px">
+      <div style="flex:1;min-width:200px;display:flex;align-items:center;gap:8px;background:#F4F7FC;border:1px solid #E2E8F2;border-radius:10px;padding:9px 12px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="#566079" stroke-width="1.8"></circle><path d="m20 20-3-3" stroke="#566079" stroke-width="1.8" stroke-linecap="round"></path></svg>
+        <input data-fid="psearch" value="${escAttr(S.projSearch)}" oninput="A.setProjSearch(event)" placeholder="ابحث باسم المشروع أو الجهة…" style="border:none;background:none;outline:none;font:400 13px 'IBM Plex Sans Arabic';width:100%;color:#131B32">
+      </div>
+      ${ddHtml('entity', 'min-width:158px')}
+      ${ddHtml('type', 'min-width:158px')}
+      ${ddHtml('scope', 'min-width:158px')}
+      ${ddHtml('sort', 'min-width:158px')}
+    </div>
+
+    ${list.length === 0 ? `
+      <div style="background:#fff;border:1px dashed #C9D5EA;border-radius:16px;padding:56px 24px;text-align:center">
+        <div style="width:60px;height:60px;border-radius:16px;background:#F4F7FC;display:flex;align-items:center;justify-content:center;margin:0 auto 16px"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="#98A3BC" stroke-width="1.8"></circle><path d="m20 20-3-3" stroke="#98A3BC" stroke-width="1.8" stroke-linecap="round"></path></svg></div>
+        <div style="font:700 16px 'IBM Plex Sans Arabic';margin-bottom:5px">لا توجد نتائج مطابقة</div>
+        <div style="font:400 13px 'IBM Plex Sans Arabic';color:#566079">جرّب تعديل كلمات البحث أو إزالة الفلاتر لعرض جميع المشاريع المعتمدة.</div>
+      </div>` : ''}
+    <div style="${gridStyle}">
+      ${list.map(projectCard).join('')}
+    </div>
+  </main>`;
+}
+
+/* ================= NOMINATION FORM ================= */
+function nomRowsHtml(key, actionKey) {
+  return S[key].map((r, i) => `
+    <div style="display:flex;align-items:center;gap:8px;background:#F9FAFD;border:1px solid #EAEFF7;border-radius:11px;padding:8px">
+      <span style="width:26px;height:26px;border-radius:8px;background:#E7EDFA;color:#1D3A8A;display:flex;align-items:center;justify-content:center;font:700 12px 'IBM Plex Sans Arabic';flex:none">${i + 1}</span>
+      <input data-fid="${key}-${i}-name" value="${escAttr(r.name)}" oninput="A.rowSet(event,'${key}',${i},'name')" placeholder="${actionKey === 'partner' ? 'اسم الشريك / الجهة' : 'اسم العضو'}" style="flex:1.2;border:1px solid #E2E8F2;border-radius:9px;padding:10px 12px;font:400 12.5px 'IBM Plex Sans Arabic';outline:none;background:#fff">
+      <input data-fid="${key}-${i}-role" value="${escAttr(r.role)}" oninput="A.rowSet(event,'${key}',${i},'role')" placeholder="${actionKey === 'partner' ? 'طبيعة الشراكة أو الدور' : 'الدور في المشروع'}" style="flex:1;border:1px solid #E2E8F2;border-radius:9px;padding:10px 12px;font:400 12.5px 'IBM Plex Sans Arabic';outline:none;background:#fff">
+      ${S[key].length > 1 ? `<button onclick="A.rowRemove('${key}',${i})" title="حذف" style="width:30px;height:30px;border:1px solid #F0D9D6;background:#fff;color:#C0392B;font:700 14px 'IBM Plex Sans Arabic';border-radius:9px;cursor:pointer;flex:none;line-height:1">×</button>` : ''}
+    </div>`).join('');
+}
+
+function nomInput(field, placeholder, extra) {
+  extra = extra || '';
+  return `<input data-fid="nom-${field}" value="${escAttr(S.nom[field] || '')}" oninput="A.nomSet(event,'${field}')" placeholder="${placeholder}" style="width:100%;border:1px solid #E2E8F2;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none${extra}">`;
+}
+function nomTextarea(field, placeholder, rows) {
+  return `<textarea data-fid="nom-${field}" rows="${rows}" oninput="A.nomSet(event,'${field}')" placeholder="${placeholder}" style="width:100%;border:1px solid #E2E8F2;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none;resize:vertical">${escAttr(S.nom[field] || '')}</textarea>`;
+}
+
+function viewForm() {
+  const step = S.formStep;
+  const dot = (n) => `width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 13px 'IBM Plex Sans Arabic';${step >= n ? 'background:#1D3A8A;color:#fff' : 'background:#fff;border:2px solid #E2E8F2;color:#98A3BC'}`;
+  const dotL = (n) => `font:600 11.5px 'IBM Plex Sans Arabic';${step >= n ? 'color:#1D3A8A' : 'color:#98A3BC'}`;
+  const pct = Math.round((step / 4) * 100) + '%';
+  const nameErr = S.formErr && !S.nomName.trim();
+  const nameInputStyle = nameErr
+    ? "width:100%;border:1.5px solid #C0392B;background:#FDF3F1;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none"
+    : "width:100%;border:1px solid #E2E8F2;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none";
+  const type = S.nom.type || 'مشروع';
+  const typeStyle = (on) => `flex:1;display:flex;align-items:center;gap:7px;border:1px solid ${on ? '#1D3A8A' : '#E2E8F2'};background:${on ? '#E7EDFA' : '#fff'};border-radius:10px;padding:11px 13px;font:600 13px 'IBM Plex Sans Arabic';color:${on ? '#1D3A8A' : '#566079'};cursor:pointer`;
+
+  let stepHtml = '';
+  if (step === 1) {
+    stepHtml = `
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">اسم المشروع أو المبادرة <span style="color:#C0392B">*</span></label><input data-fid="nomName" value="${escAttr(S.nomName)}" oninput="A.setNomName(event)" placeholder="مثال: منصة الخدمات الرقمية الموحّدة" style="${nameInputStyle}">${nameErr ? `<div style="display:flex;align-items:center;gap:6px;font:600 11.5px 'IBM Plex Sans Arabic';color:#C0392B;margin-top:6px"><span>⚠</span>هذا الحقل مطلوب — يرجى إدخال اسم المشروع أو المبادرة.</div>` : ''}</div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">نوع الترشيح</label><div style="display:flex;gap:8px"><div onclick="A.setNomType(0)" style="${typeStyle(type === 'مشروع')}">مشروع</div><div onclick="A.setNomType(1)" style="${typeStyle(type === 'مبادرة')}">مبادرة</div></div></div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">اسم الجهة <span style="color:#C0392B">*</span></label>${ddHtml('fentity', 'width:100%', { scroll: true })}</div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">مدة التنفيذ</label>${nomInput('duration', 'مثال: 18 شهرًا (يناير 2025 – يونيو 2026)')}</div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">نطاق التنفيذ</label>${ddHtml('fscope', 'width:100%')}</div>
+      </div>`;
+  } else if (step === 2) {
+    stepHtml = `
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:8px">أهم 3 أهداف للمشروع أو المبادرة</label><div style="display:flex;flex-direction:column;gap:8px">
+          ${[['obj1', 'الهدف الأول…', 1], ['obj2', 'الهدف الثاني…', 2], ['obj3', 'الهدف الثالث…', 3]].map(([f, ph, n]) => `<div style="display:flex;align-items:center;gap:9px"><span style="width:26px;height:26px;border-radius:8px;background:#E7EDFA;color:#1D3A8A;display:flex;align-items:center;justify-content:center;font:700 12px 'IBM Plex Sans Arabic';flex:none">${n}</span><input data-fid="nom-${f}" value="${escAttr(S.nom[f] || '')}" oninput="A.nomSet(event,'${f}')" placeholder="${ph}" style="flex:1;border:1px solid #E2E8F2;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none"></div>`).join('')}
+        </div></div>
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">وصف تفصيلي للمبادرة / المشروع</label>${nomTextarea('description', 'اشرح المبادرة أو المشروع بالتفصيل…', 5)}</div>
+        <div style="grid-column:1/3"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px"><label style="font:600 12.5px 'IBM Plex Sans Arabic'">معلومات عن الشركاء الرئيسيين</label><button onclick="A.rowAdd('nomPartners')" style="border:1px dashed #B7C6E0;background:#F7F9FD;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:6px 13px;border-radius:9px;cursor:pointer">+ إضافة شريك</button></div><div style="display:flex;flex-direction:column;gap:8px">${nomRowsHtml('nomPartners', 'partner')}</div></div>
+        <div style="grid-column:1/3"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px"><label style="font:600 12.5px 'IBM Plex Sans Arabic'">بيانات فرق العمل</label><button onclick="A.rowAdd('nomTeam')" style="border:1px dashed #B7C6E0;background:#F7F9FD;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:6px 13px;border-radius:9px;cursor:pointer">+ إضافة عضو</button></div><div style="display:flex;flex-direction:column;gap:8px">${nomRowsHtml('nomTeam', 'member')}</div></div>
+      </div>`;
+  } else if (step === 3) {
+    stepHtml = `
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">أبرز النتائج والمخرجات</label>${nomTextarea('results', 'النتائج والمخرجات والأرقام المحققة…', 3)}</div>
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">أهم ما يميز المبادرة / المشروع</label>${nomTextarea('unique', 'عناصر التميز والابتكار مقارنة بالممارسات القائمة…', 3)}</div>
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">الاستدامة والتطوير والتوسع</label>${nomTextarea('sustain', 'كيف ستستمر المبادرة وتتطور وتتوسع مستقبلًا؟', 3)}</div>
+        <div style="grid-column:1/3"></div>
+      </div>`;
+  } else {
+    stepHtml = `
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">صور المشروع</label><div style="border:2px dashed #C9D5EA;border-radius:12px;padding:26px;text-align:center;background:#F7F9FD"><div style="font:600 13px 'IBM Plex Sans Arabic';color:#1D3A8A">اسحب الصور هنا أو انقر للرفع</div><div style="font:400 11px 'IBM Plex Sans Arabic';color:#98A3BC;margin-top:4px">JPG أو PNG · حتى 5 صور · 5MB للصورة</div></div></div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">فيديو تعريفي (اختياري)</label><input data-fid="nom-video" placeholder="رابط الفيديو…" style="width:100%;border:1px solid #E2E8F2;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none;direction:ltr;text-align:right"></div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">روابط داعمة</label><input data-fid="nom-links" placeholder="رابط…" style="width:100%;border:1px solid #E2E8F2;border-radius:10px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none;direction:ltr;text-align:right"></div>
+        <div style="grid-column:1/3"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">مرفقات وأدلة داعمة</label><div style="border:2px dashed #C9D5EA;border-radius:12px;padding:18px;text-align:center;background:#F7F9FD;font:600 12.5px 'IBM Plex Sans Arabic';color:#1D3A8A">إرفاق ملفات PDF أو مستندات داعمة</div></div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">اسم مسؤول التواصل</label>${nomInput('contactName', 'الاسم الكامل')}</div>
+        <div><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">البريد الإلكتروني</label>${nomInput('contactEmail', 'name@gov.ae', ';direction:ltr;text-align:right')}</div>
+        <div style="grid-column:1/3;max-width:calc(50% - 8px)"><label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">رقم التواصل</label>${nomInput('contactPhone', '+971 5X XXX XXXX', ';direction:ltr;text-align:right')}</div>
+      </div>`;
+  }
+
+  return `
+  <main style="max-width:860px;margin:0 auto;padding:32px 24px 64px;animation:fadeup .4s ease">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+      <button onclick="A.go('entity')" style="border:1px solid #E2E8F2;background:#fff;color:#566079;font:600 12px 'IBM Plex Sans Arabic';padding:7px 13px;border-radius:9px;cursor:pointer">→ رجوع للوحة الجهة</button>
+    </div>
+    <h1 style="font:700 26px 'IBM Plex Sans Arabic';margin:6px 0 4px">نموذج ترشيح مشروع أو مبادرة</h1>
+    <p style="font:400 13px 'IBM Plex Sans Arabic';color:#566079;margin:0 0 14px">أكمل الخطوات الأربع. يمكنك الحفظ كمسودة والعودة في أي وقت.</p>
+    <div style="display:flex;align-items:center;gap:9px;background:#F4F7FC;border:1px solid #E2E8F2;border-radius:11px;padding:11px 15px;margin:0 0 22px"><span style="width:22px;height:22px;border-radius:7px;background:#E7EDFA;color:#2454C4;display:flex;align-items:center;justify-content:center;font:700 12px 'IBM Plex Sans Arabic';flex:none">i</span><span style="font:500 12px 'IBM Plex Sans Arabic';color:#3A4460">يمكن لكل جهة تقديم <b style="color:#1D3A8A">حتى 3 ترشيحات كحدٍّ أقصى</b> — ويسمح المشاركة بترشيح واحد أو اثنين أو ثلاثة.</span></div>
+
+    <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;margin-bottom:18px">
+      <div style="display:flex;align-items:center;gap:0;margin-bottom:18px">
+        <div style="flex:none;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="${dot(1)}">1</div><span style="${dotL(1)}">المعلومات الأساسية</span></div>
+        <div style="flex:1;height:2px;background:#E2E8F2;margin:0 8px;margin-bottom:22px"></div>
+        <div style="flex:none;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="${dot(2)}">2</div><span style="${dotL(2)}">الوصف والأهداف</span></div>
+        <div style="flex:1;height:2px;background:#E2E8F2;margin:0 8px;margin-bottom:22px"></div>
+        <div style="flex:none;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="${dot(3)}">3</div><span style="${dotL(3)}">النتائج والأثر</span></div>
+        <div style="flex:1;height:2px;background:#E2E8F2;margin:0 8px;margin-bottom:22px"></div>
+        <div style="flex:none;display:flex;flex-direction:column;align-items:center;gap:7px"><div style="${dot(4)}">4</div><span style="${dotL(4)}">المرفقات والتواصل</span></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <div style="flex:1;height:8px;background:#EEF2F8;border-radius:20px;overflow:hidden"><div style="height:100%;width:${pct};background:linear-gradient(90deg,#1D3A8A,#2454C4);border-radius:20px;transition:width .3s"></div></div>
+        <span style="font:700 12px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">${pct}</span>
+      </div>
+    </div>
+
+    <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:26px">
+      ${stepHtml}
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:26px;padding-top:20px;border-top:1px solid #EEF2F8">
+        <button onclick="A.formPrev()" style="border:1px solid #E2E8F2;background:#fff;color:#566079;font:600 13px 'IBM Plex Sans Arabic';padding:11px 20px;border-radius:10px;cursor:pointer">السابق</button>
+        <div style="display:flex;gap:10px">
+          <button onclick="A.saveDraft()" style="border:1px solid #C9D5EA;background:#fff;color:#1D3A8A;font:600 13px 'IBM Plex Sans Arabic';padding:11px 20px;border-radius:10px;cursor:pointer">حفظ كمسودة</button>
+          ${step === 4
+            ? `<button onclick="A.submitNom()" style="border:none;background:#1E8E5A;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:11px 24px;border-radius:10px;cursor:pointer;box-shadow:0 4px 12px rgba(30,142,90,.28)">إرســـــال ✓</button>`
+            : `<button onclick="A.formNext()" style="border:none;background:#1D3A8A;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:11px 24px;border-radius:10px;cursor:pointer">التالي ←</button>`}
+        </div>
+      </div>
+    </div>
+  </main>`;
+}
+
+/* ================= ADMIN ================= */
+const TH_R = "text-align:right;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 12px";
+function nomTableRows(rows, pad) {
+  return rows.map(r => `
+      <tr style="border-top:1px solid #EEF2F8">
+        <td style="padding:${pad}px 18px;font:600 13px 'IBM Plex Sans Arabic'">${r.name}</td>
+        <td style="padding:${pad}px 12px;font:400 12.5px 'IBM Plex Sans Arabic';color:#566079">${r.entity}</td>
+        <td style="padding:${pad}px 12px;font:500 12px 'IBM Plex Sans Arabic';color:#566079">${r.type}</td>
+        <td style="padding:${pad}px 12px;font:500 12px 'IBM Plex Sans Arabic';color:#566079;direction:ltr;text-align:right">${r.received}</td>
+        <td style="padding:${pad}px 12px"><span style="${r.badgeStyle}">${r.status}</span></td>
+        <td style="padding:${pad}px 18px;text-align:left"><button onclick="A.go('review')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:${pad === 13 ? '7px 13px' : '8px 14px'};border-radius:9px;cursor:pointer">مراجعة</button></td>
+      </tr>`).join('');
+}
+
+function adminTabDash() {
+  return `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
+        <div><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">لوحة المعلومات</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">النسخة السنوية 2026 · مرحلة استقبال الترشيحات</div></div>
+        <div style="display:flex;gap:9px"><button onclick="A.openReport('nom','Excel')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 12px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:10px;cursor:pointer">تصدير Excel</button><button onclick="A.openReport('nom','PDF')" style="border:none;background:#1D3A8A;color:#fff;font:600 12px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:10px;cursor:pointer">تصدير PDF</button></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:20px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#131B32;direction:ltr;text-align:right">8</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">جهة مشاركة</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#131B32;direction:ltr;text-align:right">21</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">ترشيح مستلم</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#2A6BC4;direction:ltr;text-align:right">5</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">قيد المراجعة</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#1E8E5A;direction:ltr;text-align:right">12</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">معتمدة</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#C8891B;direction:ltr;text-align:right">3</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">مطلوب تعديل</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#C0392B;direction:ltr;text-align:right">1</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">مرفوضة</div></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1.6fr 1fr;gap:16px;margin-bottom:20px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px">
+          <div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:18px">الترشيحات حسب الحالة</div>
+          <div style="display:flex;align-items:flex-end;gap:18px;height:160px;padding-bottom:6px">
+            ${[['5', '60%', '#2A6BC4,#4E8AD8', 'قيد المراجعة'], ['12', '100%', '#1E8E5A,#43B37E', 'معتمدة'], ['3', '42%', '#C8891B,#E0A945', 'مطلوب تعديل'], ['1', '42%', '#C0392B,#D9695D', 'مرفوضة'], ['14', '88%', '#1D3A8A,#3A5FB8', 'منشورة']].map(([n, h, g, l]) => `
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;height:100%"><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;width:100%;gap:6px"><div style="font:700 14px 'IBM Plex Sans Arabic';color:#131B32;direction:ltr">${n}</div><div style="width:100%;height:${h};background:linear-gradient(${g});border-radius:8px 8px 0 0"></div></div><div style="font:600 11px 'IBM Plex Sans Arabic';color:#566079">${l}</div></div>`).join('')}
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px;display:flex;flex-direction:column;align-items:center;justify-content:center">
+          <div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:16px;align-self:flex-start">نسبة الجهات المشاركة</div>
+          <div style="width:130px;height:130px;border-radius:50%;background:conic-gradient(#1D3A8A 0turn 0.89turn,#E2E8F2 0.89turn 1turn);display:flex;align-items:center;justify-content:center">
+            <div style="width:92px;height:92px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#1D3A8A">89%</div><div style="font:500 10px 'IBM Plex Sans Arabic';color:#566079">8 من 9</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid #E2E8F2">
+          <div style="font:700 15px 'IBM Plex Sans Arabic'">أحدث الترشيحات الواردة</div>
+          <span style="font:600 11px 'IBM Plex Sans Arabic';color:#2A6BC4;background:#E9F0FB;padding:5px 11px;border-radius:20px">5 بانتظار المراجعة</span>
+        </div>
+        <table style="width:100%;border-collapse:collapse">
+          <thead><tr style="background:#F7F9FD">
+            <th style="text-align:right;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:11px 18px">المشروع</th>
+            <th style="${TH_R}">الجهة</th>
+            <th style="${TH_R}">النوع</th>
+            <th style="${TH_R}">تاريخ الاستلام</th>
+            <th style="${TH_R}">الحالة</th>
+            <th style="text-align:left;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:11px 18px">إجراء</th>
+          </tr></thead>
+          <tbody>${nomTableRows(ROWS, 13)}</tbody>
+        </table>
+      </div>
+
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:18px;margin-top:16px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px"><span style="width:9px;height:9px;border-radius:50%;background:#C8891B"></span><div style="font:700 14px 'IBM Plex Sans Arabic'">جهات لم تقدّم ترشيحات بعد (1)</div></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <span style="font:500 12px 'IBM Plex Sans Arabic';color:#8A5A12;background:#FBF2E2;padding:6px 13px;border-radius:20px">مكتب رئاسة مجلس الوزراء</span>
+          <span onclick="A.toastMsg('تم إرسال تذكير إلى مكتب رئاسة مجلس الوزراء')" style="font:600 12px 'IBM Plex Sans Arabic';color:#1D3A8A;background:#E7EDFA;padding:6px 13px;border-radius:20px;cursor:pointer">+ إرسال تذكير</span>
+        </div>
+      </div>`;
+}
+
+function adminTabReview() {
+  const rf = S.reviewFilter;
+  const map = { review: 'قيد المراجعة', sent: 'تم الإرسال', approved: 'معتمد', edit: 'مطلوب تعديل' };
+  const reviewRows = rf === 'all' ? ROWS : ROWS.filter(r => r.status === map[rf]);
+  const chip = (key, c) => rf === key
+    ? `border:none;background:${c.a};color:#fff;font:600 12px 'IBM Plex Sans Arabic';padding:8px 15px;border-radius:20px;cursor:pointer`
+    : `border:1px solid ${c.b};background:${c.bg};color:${c.fg};font:600 12px 'IBM Plex Sans Arabic';padding:8px 15px;border-radius:20px;cursor:pointer`;
+  return `
+      <div style="margin-bottom:18px"><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">مراجعة الترشيحات</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">راجع اكتمال البيانات واعتمد أو أعد الترشيحات — دون منح درجات تقييم.</div></div>
+      <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap">
+        <button onclick="A.setReviewFilter('all')" style="${chip('all', { a: '#1D3A8A', fg: '#566079', bg: '#fff', b: '#E2E8F2' })}">الكل (21)</button>
+        <button onclick="A.setReviewFilter('review')" style="${chip('review', { a: '#2A6BC4', fg: '#2A6BC4', bg: '#E9F0FB', b: '#E9F0FB' })}">قيد المراجعة (5)</button>
+        <button onclick="A.setReviewFilter('sent')" style="${chip('sent', { a: '#566079', fg: '#566079', bg: '#fff', b: '#E2E8F2' })}">تم الإرسال (4)</button>
+        <button onclick="A.setReviewFilter('approved')" style="${chip('approved', { a: '#1E8E5A', fg: '#1E8E5A', bg: '#E7F4EE', b: '#E7F4EE' })}">معتمدة (12)</button>
+        <button onclick="A.setReviewFilter('edit')" style="${chip('edit', { a: '#C8891B', fg: '#C8891B', bg: '#FBF2E2', b: '#FBF2E2' })}">مطلوب تعديل (3)</button>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden">
+        <table style="width:100%;border-collapse:collapse">
+          <thead><tr style="background:#F7F9FD">
+            <th style="text-align:right;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 18px">المشروع</th>
+            <th style="${TH_R}">الجهة</th>
+            <th style="${TH_R}">النوع</th>
+            <th style="${TH_R}">تاريخ الاستلام</th>
+            <th style="${TH_R}">الحالة</th>
+            <th style="text-align:left;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 18px">إجراء</th>
+          </tr></thead>
+          <tbody>${nomTableRows(reviewRows, 14)}</tbody>
+        </table>
+        ${reviewRows.length === 0 ? `<div style="padding:40px 20px;text-align:center;font:500 13px 'IBM Plex Sans Arabic';color:#98A3BC">لا توجد ترشيحات ضمن هذه الحالة حاليًا.</div>` : ''}
+      </div>`;
+}
+
+function adminTabEntities() {
+  return `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px"><div><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">الجهات المشاركة</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">متابعة الجهات التي قدّمت ترشيحات والجهات التي لم تقدّم بعد.</div></div><button onclick="A.openReport('ent','Excel')" style="border:1px solid #C9D5EA;background:#fff;color:#1D3A8A;font:600 12px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:10px;cursor:pointer">تصدير Excel</button></div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden">
+        <table style="width:100%;border-collapse:collapse">
+          <thead><tr style="background:#F7F9FD">
+            <th style="text-align:right;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 18px">الجهة</th>
+            <th style="text-align:center;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 12px">عدد الترشيحات</th>
+            <th style="${TH_R}">الحالة</th>
+            <th style="text-align:left;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 18px">إجراء</th>
+          </tr></thead>
+          <tbody>
+            ${ENTITIES.map(e => `
+              <tr style="border-top:1px solid #EEF2F8">
+                <td style="padding:13px 18px;font:600 13px 'IBM Plex Sans Arabic'">${e.name}</td>
+                <td style="padding:13px 12px;text-align:center;font:700 13px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">${e.count}</td>
+                <td style="padding:13px 12px"><span style="${e.badge}">${e.status}</span></td>
+                <td style="padding:13px 18px;text-align:left"><button onclick="A.toastMsg('تم إرسال تذكير إلى ${e.name}')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:7px 13px;border-radius:9px;cursor:pointer">تذكير</button></td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>`;
+}
+
+function adminTabVoting() {
+  const open = S.votingOpen;
+  return `
+      <div style="margin-bottom:18px"><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">إدارة التصويت</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">تحكّم في فتح وإغلاق التصويت وضبط قواعده. لا تُعرض النتائج المباشرة أثناء التصويت.</div></div>
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin-bottom:16px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div style="display:flex;align-items:center;gap:10px"><span style="width:11px;height:11px;border-radius:50%;background:${open ? '#1E8E5A' : '#98A3BC'}"></span><div><div style="font:700 16px 'IBM Plex Sans Arabic'">${open ? 'التصويت مفتوح حاليًا' : 'التصويت مغلق حاليًا'}</div><div style="font:400 12px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">الفترة: 1 – 20 ديسمبر 2026</div></div></div>
+            <button onclick="A.toggleVoting()" style="border:none;background:${open ? '#C0392B' : '#1E8E5A'};color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:11px 22px;border-radius:11px;cursor:pointer">${open ? 'إغلاق التصويت' : 'فتح التصويت'}</button>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px"><div style="font:600 12px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:6px">إجمالي الأصوات حتى الآن</div><div style="font:700 30px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">7,486</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#98A3BC;margin-top:4px">لا تُعرض للجهات أو الموظفين أثناء التصويت</div></div>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px">
+        <div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:16px">إعدادات التصويت</div>
+        <div style="display:flex;flex-direction:column;gap:2px">
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid #EEF2F8"><div><div style="font:600 13px 'IBM Plex Sans Arabic'">عدد الأصوات لكل موظف</div><div style="font:400 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">الحد الأقصى للأصوات المسموح بها لكل حساب</div></div>${ddHtml('fvotes', 'min-width:150px', { side: 'left' })}</div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid #EEF2F8"><div><div style="font:600 13px 'IBM Plex Sans Arabic'">السماح بتعديل الصوت بعد التأكيد</div><div style="font:400 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">افتراضيًا لا يمكن تعديل الصوت بعد تسجيله</div></div><div style="width:46px;height:26px;border-radius:20px;background:#E2E8F2;position:relative;cursor:pointer"><span style="position:absolute;width:20px;height:20px;border-radius:50%;background:#fff;top:3px;right:3px;box-shadow:0 1px 3px rgba(0,0,0,.2)"></span></div></div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 0"><div><div style="font:600 13px 'IBM Plex Sans Arabic'">منع التصويت المتكرر من الحساب نفسه</div><div style="font:400 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">تفعيل التحقق الأمني وتسجيل عمليات التصويت</div></div><div style="width:46px;height:26px;border-radius:20px;background:#1E8E5A;position:relative;cursor:pointer"><span style="position:absolute;width:20px;height:20px;border-radius:50%;background:#fff;top:3px;left:3px;box-shadow:0 1px 3px rgba(0,0,0,.2)"></span></div></div>
+        </div>
+      </div>`;
+}
+
+function adminTabTimeline() {
+  const phases = [
+    ['1', '#E7EDFA', '#1D3A8A', 'الإطلاق والإعلان', 'launchS', 'launchE'],
+    ['2', '#E7EDFA', '#1D3A8A', 'استقبال الترشيحات', 'nomS', 'nomE'],
+    ['3', '#FBEFD9', '#C8891B', 'التصويت العام', 'voteS', 'voteE'],
+    ['4', '#E4F3EC', '#1E8E5A', 'إعلان الفائزين', 'winS', 'winE'],
+  ];
+  return `
+      <div style="margin-bottom:18px"><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">إدارة الجدول الزمني</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">حدّد تواريخ مراحل النسخة الحالية. التواريخ قابلة للتعديل لكل نسخة سنوية.</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        ${phases.map(([n, bg, c, title, kS, kE]) => `
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px"><div style="display:flex;align-items:center;gap:9px;margin-bottom:12px"><span style="width:30px;height:30px;border-radius:9px;background:${bg};color:${c};display:flex;align-items:center;justify-content:center;font:700 13px 'IBM Plex Sans Arabic'">${n}</span><div style="font:700 14px 'IBM Plex Sans Arabic'">${title}</div></div><div style="display:flex;gap:8px"><div style="flex:1"><label style="display:block;font:600 11px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:5px">تاريخ البداية</label><input type="date" data-fid="tl-${kS}" data-k="${kS}" value="${S.tl[kS]}" onchange="A.tlChange(event)" style="width:100%;border:1px solid #E2E8F2;border-radius:9px;padding:9px 11px;font:400 12px 'IBM Plex Sans Arabic'"></div><div style="flex:1"><label style="display:block;font:600 11px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:5px">تاريخ النهاية</label><input type="date" data-fid="tl-${kE}" data-k="${kE}" value="${S.tl[kE]}" onchange="A.tlChange(event)" style="width:100%;border:1px solid #E2E8F2;border-radius:9px;padding:9px 11px;font:400 12px 'IBM Plex Sans Arabic'"></div></div></div>`).join('')}
+      </div>
+      <div style="display:flex;justify-content:flex-end;margin-top:16px"><button onclick="A.tlSave()" style="border:none;background:#1D3A8A;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:11px 22px;border-radius:11px;cursor:pointer">حفظ التواريخ</button></div>`;
+}
+
+function adminTabEditions() {
+  return `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px"><div><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">النسخ السنوية</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">إدارة نسخة كل عام مع الاحتفاظ بالمشاريع والنتائج والتقارير.</div></div><button onclick="A.newEdition()" style="border:none;background:#1D3A8A;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:11px 20px;border-radius:11px;cursor:pointer">+ إنشاء نسخة جديدة</button></div>
+      <div style="background:linear-gradient(135deg,#16296B,#1D3A8A);border-radius:16px;padding:22px;color:#fff;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+        <div><div style="display:inline-block;font:700 10.5px 'IBM Plex Sans Arabic';background:#F59E0B;color:#131B32;padding:3px 10px;border-radius:20px;margin-bottom:8px">النسخة الحالية</div><div style="font:700 20px 'IBM Plex Sans Arabic'">جائزة الوزير 2026</div><div style="font:500 12px 'IBM Plex Sans Arabic';color:#C9D5EF;margin-top:3px">مرحلة استقبال الترشيحات · 21 ترشيحًا · 8 جهات</div></div>
+        <div style="display:flex;gap:9px"><button onclick="A.toastMsg('تم نسخ إعدادات النسخة الحالية للنسخة الجديدة')" style="border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;font:600 12px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:10px;cursor:pointer">إعادة استخدام الإعدادات</button><button onclick="A.setTab('timeline')" style="border:none;background:#fff;color:#1D3A8A;font:700 12px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:10px;cursor:pointer">إدارة</button></div>
+      </div>
+      <div style="font:600 12px 'IBM Plex Sans Arabic';color:#98A3BC;margin:16px 0 10px">النسخ المؤرشفة</div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:13px;padding:16px 18px;display:flex;align-items:center;gap:14px"><span style="width:40px;height:40px;border-radius:11px;background:#F4F7FC;display:flex;align-items:center;justify-content:center">🏆</span><div style="flex:1"><div style="font:700 14px 'IBM Plex Sans Arabic'">جائزة الوزير 2025</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">الفائز: نظام التخطيط المؤسسي الذكي — الأمانة العامة لمجلس الوزراء</div></div><span style="font:600 11px 'IBM Plex Sans Arabic';color:#566079;background:#F4F7FC;padding:5px 11px;border-radius:20px">مؤرشفة</span><button onclick="A.viewEdition('2025')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:7px 13px;border-radius:9px;cursor:pointer">عرض</button></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:13px;padding:16px 18px;display:flex;align-items:center;gap:14px"><span style="width:40px;height:40px;border-radius:11px;background:#F4F7FC;display:flex;align-items:center;justify-content:center">🏆</span><div style="flex:1"><div style="font:700 14px 'IBM Plex Sans Arabic'">جائزة الوزير 2024</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">الفائز: مبادرة تبسيط الإجراءات الحكومية — المركز الاتحادي للتنافسية والإحصاء</div></div><span style="font:600 11px 'IBM Plex Sans Arabic';color:#566079;background:#F4F7FC;padding:5px 11px;border-radius:20px">مؤرشفة</span><button onclick="A.viewEdition('2024')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:7px 13px;border-radius:9px;cursor:pointer">عرض</button></div>
+      </div>`;
+}
+
+function adminTabReports() {
+  const card = (iconBg, iconSvg, title, desc, type) => `
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px"><div style="width:38px;height:38px;border-radius:10px;background:${iconBg};display:flex;align-items:center;justify-content:center;margin-bottom:12px">${iconSvg}</div><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:3px">${title}</div><div style="font:400 11.5px/1.6 'IBM Plex Sans Arabic';color:#566079;margin-bottom:14px">${desc}</div><div style="display:flex;gap:7px"><button onclick="A.openReport('${type}','Excel')" style="flex:1;border:1px solid #E2E8F2;background:#fff;color:#1E8E5A;font:600 11.5px 'IBM Plex Sans Arabic';padding:8px;border-radius:9px;cursor:pointer">Excel</button><button onclick="A.openReport('${type}','PDF')" style="flex:1;border:1px solid #E2E8F2;background:#fff;color:#C0392B;font:600 11.5px 'IBM Plex Sans Arabic';padding:8px;border-radius:9px;cursor:pointer">PDF</button></div></div>`;
+  return `
+      <div style="margin-bottom:18px"><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">التقارير والتصدير</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">استخرج تقارير الترشيحات والجهات والتصويت بصيغ Excel وPDF.</div></div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px">
+        ${card('#E7EDFA', '<svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6ZM14 2v6h6M9 13h6M9 17h6" stroke="#1D3A8A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>', 'تقرير الترشيحات', 'جميع الترشيحات وحالاتها والجهات المقدّمة.', 'nom')}
+        ${card('#FBEFD9', '<svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM21 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11" stroke="#C8891B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>', 'تقرير الجهات المشاركة', 'مشاركة كل جهة وعدد ترشيحاتها.', 'ent')}
+        ${card('#E4F3EC', '<svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-4" stroke="#1E8E5A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg>', 'تقرير نتائج التصويت', 'الأصوات والترتيب ونسبة المشاركة (بعد الإغلاق).', 'vote')}
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:18px"><div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:12px">تقرير مخصّص</div><div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end"><div style="flex:1;min-width:150px"><label style="display:block;font:600 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:5px">النسخة</label>${ddHtml('frepEd', 'width:100%')}</div><div style="flex:1;min-width:150px"><label style="display:block;font:600 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:5px">نوع البيانات</label>${ddHtml('frepType', 'width:100%')}</div><button onclick="A.toastMsg('جاري إنشاء التقرير المخصّص')" style="border:none;background:#1D3A8A;color:#fff;font:700 12.5px 'IBM Plex Sans Arabic';padding:10px 20px;border-radius:10px;cursor:pointer">إنشاء التقرير</button></div></div>`;
+}
+
+function adminTabAudit() {
+  return `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px"><div><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">سجل التدقيق</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">سجل آمن لجميع العمليات الإدارية مع التاريخ والوقت والمستخدم.</div></div><button onclick="A.toastMsg('جاري تصدير سجل التدقيق')" style="border:1px solid #C9D5EA;background:#fff;color:#1D3A8A;font:600 12px 'IBM Plex Sans Arabic';padding:9px 15px;border-radius:10px;cursor:pointer">تصدير السجل</button></div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden">
+        <table style="width:100%;border-collapse:collapse">
+          <thead><tr style="background:#F7F9FD">
+            <th style="text-align:right;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 18px">الإجراء</th>
+            <th style="${TH_R}">المستخدم</th>
+            <th style="${TH_R}">العنصر</th>
+            <th style="text-align:left;font:600 11px 'IBM Plex Sans Arabic';color:#566079;padding:12px 18px">التاريخ والوقت</th>
+          </tr></thead>
+          <tbody>
+            ${AUDIT.map(a => `
+              <tr style="border-top:1px solid #EEF2F8">
+                <td style="padding:12px 18px"><span style="${a.badge}">${a.action}</span></td>
+                <td style="padding:12px 12px;font:600 12.5px 'IBM Plex Sans Arabic'">${a.user}</td>
+                <td style="padding:12px 12px;font:400 12px 'IBM Plex Sans Arabic';color:#566079">${a.item}</td>
+                <td style="padding:12px 18px;text-align:left;font:500 11.5px 'IBM Plex Sans Arabic';color:#98A3BC;direction:ltr">${a.time}</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>`;
+}
+
+function adminTabSys() {
+  return `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px"><div><h1 style="font:700 22px 'IBM Plex Sans Arabic';margin:0">مدير النظام والصلاحيات</h1><div style="font:400 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">إدارة المستخدمين والأدوار وضبط الصلاحيات حسب الدور.</div></div><button onclick="A.toastMsg('سيتم فتح نموذج إضافة مستخدم جديد')" style="border:none;background:#1D3A8A;color:#fff;font:700 12px 'IBM Plex Sans Arabic';padding:10px 18px;border-radius:10px;cursor:pointer">+ إضافة مستخدم</button></div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:16px"><div style="font:700 22px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">9</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079">مسؤولو الجهات</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:16px"><div style="font:700 22px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">4</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079">فريق الاستراتيجية</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:16px"><div style="font:700 22px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">5,268</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079">موظفون مصوّتون</div></div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:14px;padding:16px"><div style="font:700 22px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">2</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079">مديرو النظام</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:16px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden">
+          <div style="padding:14px 18px;border-bottom:1px solid #EEF2F8;font:700 14px 'IBM Plex Sans Arabic'">أحدث المستخدمين</div>
+          ${USERS.map(u => `
+            <div style="display:flex;align-items:center;gap:12px;padding:13px 18px;border-top:1px solid #F4F7FC">
+              <span style="width:34px;height:34px;border-radius:50%;background:#E7EDFA;color:#1D3A8A;display:flex;align-items:center;justify-content:center;font:700 12px 'IBM Plex Sans Arabic';flex:none">${u.ini}</span>
+              <div style="flex:1"><div style="font:600 13px 'IBM Plex Sans Arabic'">${u.name}</div><div style="font:400 11px 'IBM Plex Sans Arabic';color:#98A3BC">${u.entity}</div></div>
+              <span style="${u.badge}">${u.role}</span>
+            </div>`).join('')}
+        </div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:18px">
+          <div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:14px">مصفوفة الصلاحيات حسب الدور</div>
+          <div style="display:flex;flex-direction:column;gap:0">
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #EEF2F8"><span style="font:500 12px 'IBM Plex Sans Arabic';color:#3A4460">تقديم الترشيحات</span><span style="font:600 11px 'IBM Plex Sans Arabic';color:#1D3A8A;background:#E7EDFA;padding:3px 9px;border-radius:20px">مسؤول الجهة</span></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #EEF2F8"><span style="font:500 12px 'IBM Plex Sans Arabic';color:#3A4460">اعتماد ونشر الترشيحات</span><span style="font:600 11px 'IBM Plex Sans Arabic';color:#8A5A12;background:#FBF2E2;padding:3px 9px;border-radius:20px">فريق الاستراتيجية</span></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #EEF2F8"><span style="font:500 12px 'IBM Plex Sans Arabic';color:#3A4460">التصويت</span><span style="font:600 11px 'IBM Plex Sans Arabic';color:#1E8E5A;background:#E7F4EE;padding:3px 9px;border-radius:20px">الموظف المصوّت</span></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0"><span style="font:500 12px 'IBM Plex Sans Arabic';color:#3A4460">إدارة المستخدمين والنظام</span><span style="font:600 11px 'IBM Plex Sans Arabic';color:#C0392B;background:#FBECEA;padding:3px 9px;border-radius:20px">مدير النظام</span></div>
+          </div>
+        </div>
+      </div>`;
+}
+
+function viewAdmin() {
+  const aTab = S.adminTab;
+  const side = (on) => `display:flex;align-items:center;gap:10px;border-radius:10px;padding:11px 12px;font:600 13px 'IBM Plex Sans Arabic';cursor:pointer;margin-bottom:4px;${on ? 'background:#1D3A8A;color:#fff' : 'background:transparent;color:#A9B9DE'}`;
+  const tabs = { dashboard: adminTabDash, review: adminTabReview, entities: adminTabEntities, voting: adminTabVoting, timeline: adminTabTimeline, editions: adminTabEditions, reports: adminTabReports, audit: adminTabAudit, sys: adminTabSys };
+  return `
+  <main style="display:flex;animation:fadeup .4s ease">
+    <aside style="width:236px;flex:none;background:#131B32;color:#C9D5EF;min-height:calc(100vh - 64px);padding:22px 16px">
+      <div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#6B7699;letter-spacing:.06em;padding:0 8px 10px">فريق الاستراتيجية</div>
+      <div onclick="A.setTab('dashboard')" style="${side(aTab === 'dashboard')}"><span style="width:8px;height:8px;border-radius:2px;background:#F59E0B"></span>لوحة المعلومات</div>
+      <div onclick="A.setTab('review')" style="${side(aTab === 'review')}">مراجعة الترشيحات</div>
+      <div onclick="A.setTab('entities')" style="${side(aTab === 'entities')}">الجهات المشاركة</div>
+      <div onclick="A.setTab('voting')" style="${side(aTab === 'voting')}">إدارة التصويت</div>
+      <div onclick="A.setTab('timeline')" style="${side(aTab === 'timeline')}">الجدول الزمني</div>
+      <div onclick="A.setTab('reports')" style="${side(aTab === 'reports')}">التقارير والتصدير</div>
+      <div onclick="A.setTab('editions')" style="${side(aTab === 'editions')}">النسخ السنوية</div>
+      <div style="height:1px;background:#242E47;margin:10px 8px"></div>
+      <div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#6B7699;letter-spacing:.06em;padding:0 8px 10px">النظام والحوكمة</div>
+      <div onclick="A.setTab('audit')" style="${side(aTab === 'audit')}">سجل التدقيق</div>
+      <div onclick="A.setTab('sys')" style="${side(aTab === 'sys')}">مدير النظام والصلاحيات</div>
+    </aside>
+    <div style="flex:1;padding:28px;min-width:0">
+      ${(tabs[aTab] || adminTabDash)()}
+    </div>
+  </main>`;
+}
+
+/* ================= PROJECT DETAIL ================= */
+function viewDetail() {
+  const phase = S.phase;
+  const voteStyle = phase === 'ended'
+    ? "width:100%;border:1px solid #C9D5EA;background:#fff;color:#1D3A8A;font:700 14px 'IBM Plex Sans Arabic';padding:13px;border-radius:11px;cursor:pointer;margin-bottom:12px"
+    : phase === 'before'
+      ? "width:100%;border:1px solid #E2E8F2;background:#F4F7FC;color:#98A3BC;font:700 14px 'IBM Plex Sans Arabic';padding:13px;border-radius:11px;cursor:not-allowed;margin-bottom:12px"
+      : "width:100%;border:none;background:#F59E0B;color:#131B32;font:700 14px 'IBM Plex Sans Arabic';padding:13px;border-radius:11px;cursor:pointer;box-shadow:0 5px 14px rgba(245,158,11,.32);margin-bottom:12px";
+  const voteLabel = phase === 'ended' ? 'انتهى التصويت · عرض النتائج' : phase === 'before' ? 'لم يبدأ التصويت' : 'صوّت الآن';
+  return `
+  <main style="max-width:1120px;margin:0 auto;padding:24px 24px 64px;animation:fadeup .4s ease">
+    <button onclick="A.go('projects')" style="border:1px solid #E2E8F2;background:#fff;color:#566079;font:600 12px 'IBM Plex Sans Arabic';padding:7px 13px;border-radius:9px;cursor:pointer;margin-bottom:16px">→ رجوع للمشاريع</button>
+    <div style="display:grid;grid-template-columns:1fr 340px;gap:24px;align-items:start">
+      <div>
+        <div style="display:flex;gap:7px;margin-bottom:10px">
+          <span style="font:600 11px 'IBM Plex Sans Arabic';color:#2454C4;background:#E7EDFA;padding:4px 11px;border-radius:20px">مبادرة</span>
+          <span style="font:600 11px 'IBM Plex Sans Arabic';color:#131B32;background:#F4F7FC;border:1px solid #E2E8F2;padding:4px 11px;border-radius:20px">نطاق التأثير: حكومي</span>
+        </div>
+        <h1 style="font:700 28px 'IBM Plex Sans Arabic';margin:0 0 6px">منصة الخدمات الرقمية الموحّدة</h1>
+        <div style="font:500 14px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:18px">مكتب التطوير الحكومي والمستقبل · إدارة التحول الرقمي</div>
+        <div style="height:300px;border-radius:16px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 12px,#E1E9F5 12px,#E1E9F5 24px);display:flex;align-items:center;justify-content:center;font:600 12px ui-monospace;color:#98A3BC;margin-bottom:10px">صورة المشروع الرئيسية</div>
+        <div style="display:flex;gap:10px;margin-bottom:24px">
+          <div style="flex:1;height:74px;border-radius:11px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 8px,#E1E9F5 8px,#E1E9F5 16px)"></div>
+          <div style="flex:1;height:74px;border-radius:11px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 8px,#E1E9F5 8px,#E1E9F5 16px)"></div>
+          <div style="flex:1;height:74px;border-radius:11px;background:#131B32;display:flex;align-items:center;justify-content:center;color:#fff;font:600 11px 'IBM Plex Sans Arabic'">▶ فيديو تعريفي</div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:22px">
+          <div><h3 style="font:700 16px 'IBM Plex Sans Arabic';margin:0 0 8px;padding-right:12px;border-right:3px solid #F59E0B">وصف المشروع</h3><p style="font:400 14px/1.9 'IBM Plex Sans Arabic';color:#3A4460;margin:0">منصة موحّدة دمجت أكثر من 120 خدمة حكومية كانت موزّعة على أنظمة متعددة في بوابة واحدة، مع تجربة مستخدم متسقة وتسجيل دخول موحّد وربط آلي بين الجهات.</p></div>
+          <div><h3 style="font:700 16px 'IBM Plex Sans Arabic';margin:0 0 8px;padding-right:12px;border-right:3px solid #F59E0B">سبب التنفيذ — Why</h3><p style="font:400 14px/1.9 'IBM Plex Sans Arabic';color:#3A4460;margin:0">تشتّت الخدمات بين قنوات متعددة أطال زمن الإنجاز وأضعف رضا المتعاملين؛ فجاءت المنصة لتوحيد التجربة وتقليل الازدواجية.</p></div>
+          <div><h3 style="font:700 16px 'IBM Plex Sans Arabic';margin:0 0 8px;padding-right:12px;border-right:3px solid #F59E0B">الأهداف والنتائج المحققة</h3>
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:6px">
+              <div style="background:#F4F7FC;border:1px solid #E2E8F2;border-radius:12px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">64%</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">خفض زمن الإنجاز</div></div>
+              <div style="background:#F4F7FC;border:1px solid #E2E8F2;border-radius:12px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">120+</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">خدمة موحّدة</div></div>
+              <div style="background:#F4F7FC;border:1px solid #E2E8F2;border-radius:12px;padding:15px"><div style="font:700 24px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">4.6/5</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:3px">رضا المتعاملين</div></div>
+            </div>
+          </div>
+          <div><h3 style="font:700 16px 'IBM Plex Sans Arabic';margin:0 0 8px;padding-right:12px;border-right:3px solid #F59E0B">الأثر المؤسسي والمخرجات</h3><p style="font:400 14px/1.9 'IBM Plex Sans Arabic';color:#3A4460;margin:0">توحيد البنية الرقمية بين 9 جهات، وإطلاق واجهة برمجية مشتركة، وتقليل تكلفة التشغيل السنوية بنسبة 28%.</p></div>
+          <div><h3 style="font:700 16px 'IBM Plex Sans Arabic';margin:0 0 10px;padding-right:12px;border-right:3px solid #F59E0B">الأدلة والمرفقات</h3>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <div style="display:flex;align-items:center;gap:10px;border:1px solid #E2E8F2;border-radius:10px;padding:11px 14px"><span style="width:30px;height:30px;border-radius:8px;background:#FBECEA;color:#C0392B;display:flex;align-items:center;justify-content:center;font:700 10px 'IBM Plex Sans Arabic'">PDF</span><span style="font:600 13px 'IBM Plex Sans Arabic';flex:1">تقرير الأثر التفصيلي.pdf</span><span style="font:500 11px 'IBM Plex Sans Arabic';color:#98A3BC">2.4MB</span></div>
+              <div style="display:flex;align-items:center;gap:10px;border:1px solid #E2E8F2;border-radius:10px;padding:11px 14px"><span style="width:30px;height:30px;border-radius:8px;background:#E7F4EE;color:#1E8E5A;display:flex;align-items:center;justify-content:center;font:700 10px 'IBM Plex Sans Arabic'">XLS</span><span style="font:600 13px 'IBM Plex Sans Arabic';flex:1">مؤشرات الأداء 2026.xlsx</span><span style="font:500 11px 'IBM Plex Sans Arabic';color:#98A3BC">860KB</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside style="position:sticky;top:80px;background:#fff;border:1px solid #E2E8F2;border-radius:18px;padding:22px;box-shadow:0 8px 24px rgba(19,27,50,.06)">
+        <div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:6px">صوّت لهذا المشروع</div>
+        <p style="font:400 12px/1.7 'IBM Plex Sans Arabic';color:#566079;margin:0 0 16px">صوت واحد لكل موظف. لا يمكن التراجع بعد التأكيد إلا بإعداد النظام.</p>
+        <button onclick="A.detailVote()" style="${voteStyle}">${voteLabel}</button>
+        <div style="display:flex;align-items:center;gap:8px;background:#F4F7FC;border-radius:10px;padding:11px 13px;font:500 11.5px/1.6 'IBM Plex Sans Arabic';color:#566079">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex:none"><circle cx="12" cy="12" r="9" stroke="#566079" stroke-width="1.7"></circle><path d="M12 8h.01M11 12h1v4h1" stroke="#566079" stroke-width="1.7" stroke-linecap="round"></path></svg>
+          لا تُعرض أعداد الأصوات أثناء فترة التصويت حفاظًا على الحياد.
+        </div>
+      </aside>
+    </div>
+  </main>`;
+}
+
+/* ================= ENTITY DASHBOARD ================= */
+function viewEntity() {
+  return `
+  <main style="max-width:1120px;margin:0 auto;padding:28px 24px 64px;animation:fadeup .4s ease">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:22px">
+      <div><div style="font:600 11px 'IBM Plex Sans Arabic';color:#F59E0B;letter-spacing:.06em;margin-bottom:4px">لوحة الجهة المشاركة</div><h1 style="font:700 24px 'IBM Plex Sans Arabic';margin:0">مكتب التطوير الحكومي والمستقبل</h1></div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><button onclick="A.go('form')" style="border:none;background:#1D3A8A;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:12px 22px;border-radius:11px;cursor:pointer;box-shadow:0 5px 14px rgba(29,58,138,.28)">+ إضافة ترشيح جديد</button><span style="font:500 11px 'IBM Plex Sans Arabic';color:#98A3BC">حتى 3 ترشيحات لكل جهة — يمكن المشاركة بواحد أو اثنين أو ثلاثة</span></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px;margin-bottom:22px">
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px">
+        <div style="font:600 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:12px">الترشيحات المستخدمة</div>
+        <div style="display:flex;align-items:flex-end;gap:6px;margin-bottom:12px"><span style="font:700 34px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">2</span><span style="font:600 14px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:6px">من 3 مسموح</span></div>
+        <div style="display:flex;gap:6px"><div style="flex:1;height:9px;border-radius:20px;background:#1D3A8A"></div><div style="flex:1;height:9px;border-radius:20px;background:#1D3A8A"></div><div style="flex:1;height:9px;border-radius:20px;background:#EEF2F8"></div></div>
+        <div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#1E8E5A;margin-top:9px">يتبقّى ترشيح واحد متاح</div>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px"><div style="font:600 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:8px">أقرب موعد نهائي</div><div style="font:700 20px 'IBM Plex Sans Arabic';color:#131B32">30 نوفمبر</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#C8891B;margin-top:6px">⏳ يتبقّى 141 يومًا على الإغلاق</div></div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px"><div style="font:600 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:8px">حالة عامة</div><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:4px"><span style="font:600 10.5px 'IBM Plex Sans Arabic';color:#1E8E5A;background:#E7F4EE;padding:4px 10px;border-radius:20px">1 معتمد</span><span style="font:600 10.5px 'IBM Plex Sans Arabic';color:#2A6BC4;background:#E9F0FB;padding:4px 10px;border-radius:20px">1 قيد المراجعة</span><span style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;background:#F4F7FC;padding:4px 10px;border-radius:20px">1 مسودة</span></div></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:18px">
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;overflow:hidden">
+        <div style="padding:16px 18px;border-bottom:1px solid #EEF2F8;font:700 15px 'IBM Plex Sans Arabic'">ترشيحاتي الحالية</div>
+        <div style="padding:14px 18px;border-bottom:1px solid #F4F7FC;display:flex;align-items:center;gap:12px"><div style="flex:1"><div style="font:600 13.5px 'IBM Plex Sans Arabic'">منصة الخدمات الرقمية الموحّدة</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-top:2px">مبادرة · آخر تحديث قبل يومين</div></div><span style="font:600 11px 'IBM Plex Sans Arabic';color:#1E8E5A;background:#E7F4EE;padding:5px 11px;border-radius:20px">معتمد</span><button onclick="A.go('detail')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:7px 12px;border-radius:9px;cursor:pointer">عرض</button></div>
+        <div style="padding:14px 18px;border-bottom:1px solid #F4F7FC;display:flex;align-items:center;gap:12px"><div style="flex:1"><div style="font:600 13.5px 'IBM Plex Sans Arabic'">نظام رصد جودة الشبكة الوطنية</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-top:2px">مشروع · بانتظار فريق الاستراتيجية</div></div><span style="font:600 11px 'IBM Plex Sans Arabic';color:#2A6BC4;background:#E9F0FB;padding:5px 11px;border-radius:20px">قيد المراجعة</span><button onclick="A.go('detail')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:7px 12px;border-radius:9px;cursor:pointer">عرض</button></div>
+        <div style="padding:14px 18px;display:flex;align-items:center;gap:12px"><div style="flex:1"><div style="font:600 13.5px 'IBM Plex Sans Arabic'">مبادرة الوصول الرقمي الشامل</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-top:2px">مبادرة · مسودة غير مكتملة</div></div><span style="font:600 11px 'IBM Plex Sans Arabic';color:#566079;background:#F4F7FC;padding:5px 11px;border-radius:20px">مسودة</span><button onclick="A.go('form')" style="border:1px solid #E2E8F2;background:#fff;color:#1D3A8A;font:600 11.5px 'IBM Plex Sans Arabic';padding:7px 12px;border-radius:9px;cursor:pointer">إكمال</button></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:18px">
+          <div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:12px">تنبيهات فريق الاستراتيجية</div>
+          <div style="display:flex;gap:10px"><span style="width:8px;height:8px;border-radius:50%;background:#1E8E5A;margin-top:5px;flex:none"></span><div style="font:600 12.5px 'IBM Plex Sans Arabic'">تم إرسال الترشيح</div></div>
+        </div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:18px">
+          <div style="font:700 14px 'IBM Plex Sans Arabic';margin-bottom:12px">سجل الإجراءات</div>
+          <div style="border-right:2px solid #EEF2F8;padding-right:14px;display:flex;flex-direction:column;gap:12px">
+            <div><div style="font:600 12px 'IBM Plex Sans Arabic'">اعتماد الترشيح</div><div style="font:400 11px 'IBM Plex Sans Arabic';color:#98A3BC">12 يوليو · 10:24</div></div>
+            <div><div style="font:600 12px 'IBM Plex Sans Arabic'">إرسال للمراجعة</div><div style="font:400 11px 'IBM Plex Sans Arabic';color:#98A3BC">9 يوليو · 15:02</div></div>
+            <div><div style="font:600 12px 'IBM Plex Sans Arabic'">إنشاء مسودة</div><div style="font:400 11px 'IBM Plex Sans Arabic';color:#98A3BC">7 يوليو · 09:40</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>`;
+}
+
+/* ================= RESULTS ================= */
+function viewResults() {
+  const year = S.filterVals.fresYear || '2026';
+  const rd = RES_DATA[year];
+  const admin = S.resultsAdmin;
+  const publishBtn = S.winnersPublished
+    ? `<button onclick="A.publishWinners()" style="border:none;background:#1E8E5A;color:#fff;font:700 12px 'IBM Plex Sans Arabic';padding:10px 16px;border-radius:10px;cursor:default">✓ تم النشر</button>`
+    : `<button onclick="A.publishWinners()" style="border:none;background:#F59E0B;color:#131B32;font:700 12px 'IBM Plex Sans Arabic';padding:10px 16px;border-radius:10px;cursor:pointer">نشر الفائزين</button>`;
+  return `
+  <main style="max-width:1080px;margin:0 auto;padding:28px 24px 64px;animation:fadeup .4s ease">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:22px">
+      <div><div style="font:600 11px 'IBM Plex Sans Arabic';color:#F59E0B;letter-spacing:.06em;margin-bottom:4px">لوحة النتائج · بعد إغلاق التصويت</div><h1 style="font:700 24px 'IBM Plex Sans Arabic';margin:0">نتائج النسخة السنوية ${year}</h1></div>
+      ${admin ? `
+      <div style="display:flex;gap:9px;align-items:center;flex-wrap:wrap">
+        ${ddHtml('fresYear', 'min-width:110px')}
+        <button onclick="A.openReport('vote','Excel')" style="border:1px solid #E2E8F2;background:#fff;color:#1E8E5A;font:600 12px 'IBM Plex Sans Arabic';padding:10px 16px;border-radius:10px;cursor:pointer">تصدير Excel</button>
+        <button onclick="A.openReport('vote','PDF')" style="border:1px solid #E2E8F2;background:#fff;color:#C0392B;font:600 12px 'IBM Plex Sans Arabic';padding:10px 16px;border-radius:10px;cursor:pointer">تصدير PDF</button>
+        <button onclick="A.approveResults()" style="border:1px solid #C9D5EA;background:#fff;color:#1D3A8A;font:600 12px 'IBM Plex Sans Arabic';padding:10px 16px;border-radius:10px;cursor:pointer">اعتماد النتيجة</button>${publishBtn}
+      </div>` : ''}
+    </div>
+
+    <div style="position:relative;background:linear-gradient(135deg,#16296B,#1D3A8A 60%,#2454C4);border-radius:20px;padding:30px 32px;color:#fff;overflow:hidden;margin-bottom:20px">
+      <div style="position:absolute;inset:0;background:radial-gradient(circle at 88% 30%,rgba(245,158,11,.28),transparent 45%)"></div>
+      <div style="position:relative;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+        <div style="width:76px;height:76px;border-radius:20px;background:rgba(245,158,11,.18);border:1px solid rgba(245,158,11,.4);display:flex;align-items:center;justify-content:center;flex:none"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="M6 3h12v3a6 6 0 0 1-6 6 6 6 0 0 1-6-6V3Z" stroke="#F59E0B" stroke-width="1.6" stroke-linejoin="round"></path><path d="M6 4H4v1a3 3 0 0 0 3 3M18 4h2v1a3 3 0 0 1-3 3M12 12v4M9 20h6M10 16h4v4h-4z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+        <div style="flex:1;min-width:260px">
+          <div style="display:inline-block;font:700 11px 'IBM Plex Sans Arabic';background:#F59E0B;color:#131B32;padding:4px 12px;border-radius:20px;margin-bottom:10px">🏆 الفائز بالمركز الأول</div>
+          <div style="font:700 24px 'IBM Plex Sans Arabic';margin-bottom:4px">${rd.w1}</div>
+          <div style="font:500 13.5px 'IBM Plex Sans Arabic';color:#C9D5EF">${rd.w1sub}</div>
+        </div>
+        <div style="text-align:center;flex:none"><div style="font:700 38px 'IBM Plex Sans Arabic';direction:ltr">${rd.v1}</div><div style="font:500 12px 'IBM Plex Sans Arabic';color:#C9D5EF">صوت · ${rd.p1}</div></div>
+      </div>
+    </div>
+
+    ${admin ? `
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px">
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px"><div style="font:700 30px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">${rd.total}</div><div style="font:500 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">إجمالي الأصوات</div></div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px"><div style="font:700 30px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">${rd.part}</div><div style="font:500 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">نسبة مشاركة الموظفين</div></div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:20px"><div style="font:700 30px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">${rd.count}</div><div style="font:500 12.5px 'IBM Plex Sans Arabic';color:#566079;margin-top:2px">مشروعًا متنافسًا</div></div>
+    </div>` : ''}
+
+    <div style="display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:12px;align-items:end;margin-bottom:20px">
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px 16px 0 0;padding:18px 16px;text-align:center;border-bottom:3px solid #C9D5EA"><div style="font:700 22px 'IBM Plex Sans Arabic';color:#98A3BC;direction:ltr">2</div><div style="font:700 13px/1.4 'IBM Plex Sans Arabic';margin:6px 0 3px">${rd.w2}</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079">${rd.e2}</div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr;margin-top:8px">${rd.v2}</div></div>
+      <div style="background:linear-gradient(160deg,#1D3A8A,#2454C4);border-radius:16px 16px 0 0;padding:24px 18px;text-align:center;color:#fff;box-shadow:0 8px 24px rgba(29,58,138,.25)"><div style="font:700 15px 'IBM Plex Sans Arabic';color:#F59E0B;margin-bottom:4px">🏆 الأول</div><div style="font:700 15px/1.4 'IBM Plex Sans Arabic';margin:2px 0 3px">${rd.w1}</div><div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#C9D5EF">${rd.e1}</div><div style="font:700 20px 'IBM Plex Sans Arabic';direction:ltr;margin-top:8px">${rd.v1}</div></div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px 16px 0 0;padding:16px;text-align:center;border-bottom:3px solid #E0BC7A"><div style="font:700 20px 'IBM Plex Sans Arabic';color:#C8891B;direction:ltr">3</div><div style="font:700 13px/1.4 'IBM Plex Sans Arabic';margin:6px 0 3px">${rd.w3}</div><div style="font:500 11px 'IBM Plex Sans Arabic';color:#566079">${rd.e3}</div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr;margin-top:8px">${rd.v3}</div></div>
+    </div>
+
+    <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px">
+      <div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:18px">ترتيب المشاريع حسب عدد الأصوات</div>
+      <div style="display:flex;flex-direction:column;gap:15px">
+        ${[['1', 'منصة الخدمات الرقمية الموحّدة', '1,842', '100%', '#F59E0B,#F0B34E', '#F59E0B'], ['2', 'نظام الرعاية المنزلية الذكي', '1,510', '82%', '#1D3A8A,#3A5FB8', '#566079'], ['3', 'مبادرة صفر أوراق', '1,196', '65%', '#1D3A8A,#3A5FB8', '#566079'], ['4', 'أكاديمية مهارات المستقبل', '984', '53%', '#1D3A8A,#3A5FB8', '#566079'], ['5', 'مساعد المعاملات بالذكاء الاصطناعي', '742', '40%', '#1D3A8A,#3A5FB8', '#566079']].map(([n, name, votes, w, g, c]) => `
+        <div style="display:flex;align-items:center;gap:14px"><span style="width:26px;font:700 15px 'IBM Plex Sans Arabic';color:${c};direction:ltr;text-align:center">${n}</span><div style="flex:1"><div style="display:flex;justify-content:space-between;margin-bottom:5px"><span style="font:600 13px 'IBM Plex Sans Arabic'">${name}</span><span style="font:700 12px 'IBM Plex Sans Arabic';color:#566079;direction:ltr">${votes}</span></div><div style="height:9px;background:#EEF2F8;border-radius:20px;overflow:hidden"><div style="height:100%;width:${w};background:linear-gradient(90deg,${g});border-radius:20px"></div></div></div></div>`).join('')}
+      </div>
+    </div>
+
+    ${admin ? `
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:16px;margin-top:16px">
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px"><div style="font:700 15px 'IBM Plex Sans Arabic'">توزيع الأصوات حسب الجهات</div><span style="font:500 10.5px 'IBM Plex Sans Arabic';color:#98A3BC">دون عرض بيانات شخصية للمصوّتين</span></div>
+        <div style="display:flex;flex-direction:column;gap:13px">
+          ${[['مكتب التطوير الحكومي والمستقبل', '1,842 · 24.6%', '100%', '#F59E0B,#F0B34E', ''], ['وزارة شؤون مجلس الوزراء', '1,510 · 20.2%', '82%', '#1D3A8A,#3A5FB8', ''], ['الأمانة العامة لمجلس الوزراء', '1,196 · 16.0%', '65%', '#1D3A8A,#3A5FB8', ''], ['مكتب التبادل المعرفي الحكومي', '984 · 13.1%', '53%', '#1D3A8A,#3A5FB8', ''], ['مكتب الذكاء الاصطناعي', '742 · 9.9%', '40%', '#1D3A8A,#3A5FB8', ''], ['جهات أخرى', '1,212 · 16.2%', '66%', '#C9D5EA,#C9D5EA', 'color:#566079']].map(([name, val, w, g, ex]) => `
+          <div><div style="display:flex;justify-content:space-between;margin-bottom:5px"><span style="font:600 12.5px 'IBM Plex Sans Arabic';${ex}">${name}</span><span style="font:700 11.5px 'IBM Plex Sans Arabic';color:#566079;direction:ltr">${val}</span></div><div style="height:8px;background:#EEF2F8;border-radius:20px;overflow:hidden"><div style="height:100%;width:${w};background:linear-gradient(90deg,${g});border-radius:20px"></div></div></div>`).join('')}
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;display:flex;flex-direction:column;align-items:center">
+        <div style="font:700 15px 'IBM Plex Sans Arabic';align-self:flex-start;margin-bottom:14px">مشاركة الموظفين في التصويت</div>
+        <div style="width:150px;height:150px;border-radius:50%;background:conic-gradient(#1E8E5A 0turn 0.61turn,#EEF2F8 0.61turn 1turn);display:flex;align-items:center;justify-content:center;margin:6px 0">
+          <div style="width:108px;height:108px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center"><div style="font:700 30px 'IBM Plex Sans Arabic';color:#1E8E5A">61%</div><div style="font:500 10.5px 'IBM Plex Sans Arabic';color:#566079">نسبة المشاركة</div></div>
+        </div>
+        <div style="font:500 12px 'IBM Plex Sans Arabic';color:#566079;text-align:center;margin-top:8px">صوّت <b style="color:#131B32">7,486</b> موظفًا من أصل <b style="color:#131B32">12,270</b></div>
+      </div>
+    </div>` : ''}
+  </main>`;
+}
+
+/* ================= REVIEW (strategy team) ================= */
+function reviewData() {
+  const nom = S.nom;
+  const D = NOM_FALLBACK;
+  const g = (f) => (nom[f] && String(nom[f]).trim()) ? nom[f] : D[f];
+  const scope = S.filterVals.fscope || 'على المستوى الحكومي';
+  const scopeShort = scope.replace('على مستوى ', '').replace('على المستوى ', '').replace('ال', '');
+  return {
+    name: S.nomName.trim() || D.name, type: nom.type || 'مشروع', scope: scopeShort,
+    dept: g('dept'), summary: g('summary'), description: g('description'), why: g('why'),
+    objectives: g('objectives'), problem: g('problem'), results: g('results'), impact: g('impact'),
+    deliverables: g('deliverables'), beneficiaries: g('beneficiaries'), progress: g('progress'),
+    metrics: g('metrics'), startDate: g('startDate'), endDate: g('endDate'),
+    contactName: g('contactName'), contactEmail: g('contactEmail'), contactPhone: g('contactPhone'),
+  };
+}
+
+function viewReview() {
+  const rv = reviewData();
+  const check = (label, ok) => ok
+    ? `<div style="display:flex;align-items:center;gap:8px;font:500 12.5px 'IBM Plex Sans Arabic'"><span style="width:18px;height:18px;border-radius:50%;background:#E7F4EE;color:#1E8E5A;display:flex;align-items:center;justify-content:center;font-size:11px">✓</span>${label}</div>`
+    : `<div style="display:flex;align-items:center;gap:8px;font:500 12.5px 'IBM Plex Sans Arabic';color:#C8891B"><span style="width:18px;height:18px;border-radius:50%;background:#FBF2E2;color:#C8891B;display:flex;align-items:center;justify-content:center;font-size:11px">!</span>${label}</div>`;
+  return `
+  <main style="max-width:1120px;margin:0 auto;padding:24px 24px 96px;animation:fadeup .4s ease">
+    <button onclick="A.go('admin')" style="border:1px solid #E2E8F2;background:#fff;color:#566079;font:600 12px 'IBM Plex Sans Arabic';padding:7px 13px;border-radius:9px;cursor:pointer;margin-bottom:16px">→ رجوع للوحة المعلومات</button>
+    <div style="display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:start">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <span style="font:600 11px 'IBM Plex Sans Arabic';color:#2A6BC4;background:#E9F0FB;padding:4px 11px;border-radius:20px">قيد المراجعة</span>
+          <span style="font:600 11px 'IBM Plex Sans Arabic';color:#2454C4;background:#E7EDFA;padding:4px 11px;border-radius:20px">${rv.type}</span>
+          <span style="font:500 11.5px 'IBM Plex Sans Arabic';color:#98A3BC">وصل في 9 يوليو 2026</span>
+        </div>
+        <h1 style="font:700 25px 'IBM Plex Sans Arabic';margin:0 0 5px">${rv.name}</h1>
+        <div style="font:500 13.5px 'IBM Plex Sans Arabic';color:#566079;margin-bottom:20px">مكتب التطوير الحكومي والمستقبل · ${rv.dept}</div>
+
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;margin-bottom:16px">
+          <div style="font:700 13px 'IBM Plex Sans Arabic';color:#F59E0B;margin-bottom:14px">قائمة تحقّق اكتمال البيانات</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            ${check('المعلومات الأساسية', true)}
+            ${check('الوصف والأهداف', true)}
+            ${check('النتائج والأثر', true)}
+            ${check('مؤشرات رقمية داعمة', false)}
+            ${check('الصور والمرفقات', true)}
+            ${check('بيانات مسؤول التواصل', true)}
+          </div>
+        </div>
+
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:16px;padding:22px;margin-bottom:16px">
+          <div style="font:700 13px 'IBM Plex Sans Arabic';color:#F59E0B;margin-bottom:14px">البيانات الكاملة للترشيح كما قدّمتها الجهة</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px">
+            <div style="background:#F7F9FD;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">نوع الترشيح</div><div style="font:600 13px 'IBM Plex Sans Arabic'">${rv.type}</div></div>
+            <div style="background:#F7F9FD;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">الجهة المشاركة</div><div style="font:600 13px 'IBM Plex Sans Arabic'">مكتب التطوير الحكومي والمستقبل</div></div>
+            <div style="background:#F7F9FD;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">الإدارة / الفريق</div><div style="font:600 13px 'IBM Plex Sans Arabic'">${rv.dept}</div></div>
+          </div>
+          <div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:8px">صور المشروع</div>
+          <div style="display:flex;gap:10px;margin-bottom:20px">
+            <div style="flex:1;height:96px;border-radius:11px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 9px,#E1E9F5 9px,#E1E9F5 18px)"></div>
+            <div style="flex:1;height:96px;border-radius:11px;background:repeating-linear-gradient(135deg,#EBF0F9,#EBF0F9 9px,#E1E9F5 9px,#E1E9F5 18px)"></div>
+            <div style="flex:1;height:96px;border-radius:11px;background:#131B32;display:flex;align-items:center;justify-content:center;color:#fff;font:600 11px 'IBM Plex Sans Arabic'">▶ فيديو تعريفي</div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">نبذة مختصرة</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.summary}</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">الوصف التفصيلي</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.description}</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">سبب التنفيذ — Why</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.why}</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">الأهداف</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.objectives}</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">المشكلة أو التحدي</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.problem}</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">النتائج المحققة</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.results} <span style="color:#C8891B;font-weight:600">ملاحظة: يُنصح بإضافة نسب مئوية وأرقام داعمة قبل الاعتماد.</span></div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">الأثر المؤسسي</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.impact}</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:5px">المخرجات الرئيسية — Deliverables</div><div style="font:400 14px/1.85 'IBM Plex Sans Arabic';color:#3A4460">${rv.deliverables}</div></div>
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
+              <div style="border:1px solid #EEF2F8;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">نطاق التأثير</div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">${rv.scope}</div></div>
+              <div style="border:1px solid #EEF2F8;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">الفئات المستفيدة</div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">${rv.beneficiaries}</div></div>
+              <div style="border:1px solid #EEF2F8;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">نسبة الإنجاز</div><div style="font:600 12.5px 'IBM Plex Sans Arabic';color:#1D3A8A;direction:ltr">${rv.progress}%</div></div>
+              <div style="border:1px solid #EEF2F8;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">تاريخ البدء</div><div style="font:600 12.5px 'IBM Plex Sans Arabic';direction:ltr">${rv.startDate}</div></div>
+              <div style="border:1px solid #EEF2F8;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">الحالة / الانتهاء</div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">${rv.endDate}</div></div>
+              <div style="border:1px solid #EEF2F8;border-radius:11px;padding:12px 14px"><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:3px">مؤشرات داعمة</div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">${rv.metrics}</div></div>
+            </div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:8px">روابط داعمة</div><div style="font:600 12.5px 'IBM Plex Sans Arabic';color:#2454C4;direction:ltr;text-align:right">https://gov.ae/homecare-demo</div></div>
+            <div><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:8px">المرفقات والأدلة</div><div style="display:flex;gap:8px;flex-wrap:wrap"><span style="display:flex;align-items:center;gap:7px;border:1px solid #E2E8F2;border-radius:9px;padding:8px 12px;font:600 12px 'IBM Plex Sans Arabic'"><span style="color:#C0392B">PDF</span>خطة المشروع.pdf</span><span style="display:flex;align-items:center;gap:7px;border:1px solid #E2E8F2;border-radius:9px;padding:8px 12px;font:600 12px 'IBM Plex Sans Arabic'"><span style="color:#1E8E5A">IMG</span>لقطات النظام.zip</span></div></div>
+            <div style="border-top:1px solid #EEF2F8;padding-top:16px"><div style="font:700 13px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:8px">بيانات مسؤول التواصل</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px"><div><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:2px">الاسم</div><div style="font:600 12.5px 'IBM Plex Sans Arabic'">${rv.contactName}</div></div><div><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:2px">البريد</div><div style="font:600 12px 'IBM Plex Sans Arabic';direction:ltr;text-align:right">${rv.contactEmail}</div></div><div><div style="font:600 10.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:2px">الهاتف</div><div style="font:600 12.5px 'IBM Plex Sans Arabic';direction:ltr;text-align:right">${rv.contactPhone}</div></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <aside style="position:sticky;top:80px;display:flex;flex-direction:column;gap:14px">
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:18px;padding:20px;box-shadow:0 8px 24px rgba(19,27,50,.06)">
+          <div style="font:700 15px 'IBM Plex Sans Arabic';margin-bottom:4px">قرار المراجعة</div>
+          <p style="font:400 11.5px/1.7 'IBM Plex Sans Arabic';color:#566079;margin:0 0 16px">راجع اكتمال البيانات وأهلية النشر. لا يتضمن القرار تقييمًا أو درجات.</p>
+          <button onclick="A.confirmApprove()" style="width:100%;border:none;background:#1E8E5A;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:12px;border-radius:11px;cursor:pointer;margin-bottom:9px;box-shadow:0 4px 12px rgba(30,142,90,.24)">✓ اعتماد ونشر للتصويت</button>
+          <button onclick="A.openModal('edit')" style="width:100%;border:1px solid #E0BC7A;background:#FDF7EC;color:#8A5A12;font:600 13px 'IBM Plex Sans Arabic';padding:12px;border-radius:11px;cursor:pointer;margin-bottom:9px">طلب تعديل من الجهة</button>
+          <button onclick="A.openModal('reject')" style="width:100%;border:1px solid #E7B7B0;background:#FDEEEC;color:#A5271A;font:600 13px 'IBM Plex Sans Arabic';padding:12px;border-radius:11px;cursor:pointer">رفض الترشيح</button>
+        </div>
+        <div style="background:#fff;border:1px solid #E2E8F2;border-radius:18px;padding:18px">
+          <div style="font:700 13px 'IBM Plex Sans Arabic';margin-bottom:12px">سجل التدقيق</div>
+          <div style="border-right:2px solid #EEF2F8;padding-right:13px;display:flex;flex-direction:column;gap:12px">
+            <div><div style="font:600 12px 'IBM Plex Sans Arabic'">بدء المراجعة — أحمد المنصوري</div><div style="font:400 10.5px 'IBM Plex Sans Arabic';color:#98A3BC">اليوم · 09:15</div></div>
+            <div><div style="font:600 12px 'IBM Plex Sans Arabic'">استلام الترشيح</div><div style="font:400 10.5px 'IBM Plex Sans Arabic';color:#98A3BC">9 يوليو · 15:02</div></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>`;
+}
+
+/* ================= MODALS / REPORT / TOAST ================= */
+function modalsHtml() {
+  if (!S.modal) return '';
+  const reject = S.modal === 'reject';
+  const inner = reject ? `
+        <div onclick="event.stopPropagation()" style="width:460px;max-width:100%;background:#fff;border-radius:18px;padding:26px;box-shadow:0 24px 60px rgba(19,27,50,.35);animation:fadeup .25s ease">
+          <div style="width:46px;height:46px;border-radius:13px;background:#FDEEEC;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><span style="color:#C0392B;font:700 22px 'IBM Plex Sans Arabic'">✕</span></div>
+          <div style="font:700 18px 'IBM Plex Sans Arabic';margin-bottom:6px">رفض الترشيح</div>
+          <p style="font:400 13px/1.7 'IBM Plex Sans Arabic';color:#566079;margin:0 0 16px">سيتم إبلاغ الجهة بقرار الرفض والسبب المذكور. لا يمكن التراجع عن هذا الإجراء.</p>
+          <label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">سبب الرفض</label>
+          <textarea data-fid="rejectReason" rows="3" oninput="A.setS(event,'rejectReason')" placeholder="اكتب سبب الرفض بوضوح…" style="width:100%;border:1px solid #E2E8F2;border-radius:11px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none;resize:vertical;margin-bottom:18px">${escAttr(S.rejectReason)}</textarea>
+          <div style="display:flex;gap:10px;justify-content:flex-end">
+            <button onclick="A.closeModal()" style="border:1px solid #E2E8F2;background:#fff;color:#566079;font:600 13px 'IBM Plex Sans Arabic';padding:10px 18px;border-radius:10px;cursor:pointer">إلغاء</button>
+            <button onclick="A.confirmReject()" style="border:none;background:#C0392B;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:10px 20px;border-radius:10px;cursor:pointer">تأكيد الرفض</button>
+          </div>
+        </div>` : `
+        <div onclick="event.stopPropagation()" style="width:460px;max-width:100%;background:#fff;border-radius:18px;padding:26px;box-shadow:0 24px 60px rgba(19,27,50,.35);animation:fadeup .25s ease">
+          <div style="width:46px;height:46px;border-radius:13px;background:#FDF7EC;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><span style="color:#C8891B;font:700 22px 'IBM Plex Sans Arabic'">↻</span></div>
+          <div style="font:700 18px 'IBM Plex Sans Arabic';margin-bottom:6px">طلب تعديل من الجهة</div>
+          <p style="font:400 13px/1.7 'IBM Plex Sans Arabic';color:#566079;margin:0 0 16px">سيعود الترشيح إلى الجهة بحالة «مطلوب تعديل» مع ملاحظاتك، ويمكنها إعادة الإرسال بعد الاستكمال.</p>
+          <label style="display:block;font:600 12.5px 'IBM Plex Sans Arabic';margin-bottom:6px">التعديلات المطلوبة</label>
+          <textarea data-fid="editNotes" rows="3" oninput="A.setS(event,'editNotes')" placeholder="مثال: يرجى إضافة مؤشرات أداء رقمية داعمة…" style="width:100%;border:1px solid #E2E8F2;border-radius:11px;padding:11px 13px;font:400 13px 'IBM Plex Sans Arabic';outline:none;resize:vertical;margin-bottom:18px">${escAttr(S.editNotes)}</textarea>
+          <div style="display:flex;gap:10px;justify-content:flex-end">
+            <button onclick="A.closeModal()" style="border:1px solid #E2E8F2;background:#fff;color:#566079;font:600 13px 'IBM Plex Sans Arabic';padding:10px 18px;border-radius:10px;cursor:pointer">إلغاء</button>
+            <button onclick="A.confirmEdit()" style="border:none;background:#C8891B;color:#fff;font:700 13px 'IBM Plex Sans Arabic';padding:10px 20px;border-radius:10px;cursor:pointer">إرسال الطلب</button>
+          </div>
+        </div>`;
+  return `
+    <div style="position:fixed;inset:0;z-index:90;background:rgba(19,27,50,.5);backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:24px" onclick="A.closeModal()">
+      ${inner}
+    </div>`;
+}
+
+function reportHtml() {
+  const rep = S.report;
+  if (!rep) return '';
+  const d = REPORT_DEFS[rep.type];
+  const year = S.filterVals.fresYear || '2026';
+  const fmtStyle = rep.fmt === 'Excel'
+    ? "font:700 10.5px 'IBM Plex Sans Arabic';color:#1E8E5A;background:#E7F4EE;padding:4px 11px;border-radius:20px"
+    : "font:700 10.5px 'IBM Plex Sans Arabic';color:#C0392B;background:#FBECEA;padding:4px 11px;border-radius:20px";
+  return `
+    <div style="position:fixed;inset:0;z-index:95;display:flex;align-items:center;justify-content:center;padding:24px">
+      <div onclick="A.closeReport()" style="position:absolute;inset:0;background:rgba(19,27,50,.5)"></div>
+      <div style="position:relative;width:720px;max-width:100%;max-height:86vh;overflow-y:auto;background:#fff;border-radius:18px;box-shadow:0 30px 70px rgba(19,27,50,.35);animation:fadeup .25s ease">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 22px;border-bottom:1px solid #EEF2F8">
+          <div style="display:flex;align-items:center;gap:10px"><span style="${fmtStyle}">${rep.fmt}</span><div style="font:700 15px 'IBM Plex Sans Arabic'">${d.title}</div></div>
+          <button onclick="A.closeReport()" style="width:30px;height:30px;border:1px solid #E2E8F2;background:#fff;color:#566079;font:700 14px 'IBM Plex Sans Arabic';border-radius:9px;cursor:pointer;line-height:1">×</button>
+        </div>
+        <div style="padding:18px 22px">
+          <div style="font:500 11.5px 'IBM Plex Sans Arabic';color:#98A3BC;margin-bottom:12px">معاينة لمحتوى التقرير — النسخة السنوية ${year}</div>
+          <table style="width:100%;border-collapse:collapse">
+            <thead><tr>${d.cols.map(c => `<th style="text-align:right;font:700 12px 'IBM Plex Sans Arabic';color:#566079;background:#F4F7FC;padding:10px 12px;border-bottom:1px solid #E2E8F2">${c}</th>`).join('')}</tr></thead>
+            <tbody>${d.rows.map(r => `<tr><td style="font:500 12.5px 'IBM Plex Sans Arabic';padding:10px 12px;border-bottom:1px solid #F4F7FC">${r[0]}</td><td style="font:400 12.5px 'IBM Plex Sans Arabic';color:#3A4460;padding:10px 12px;border-bottom:1px solid #F4F7FC">${r[1]}</td><td style="font:400 12.5px 'IBM Plex Sans Arabic';color:#3A4460;padding:10px 12px;border-bottom:1px solid #F4F7FC">${r[2]}</td><td style="font:400 12.5px 'IBM Plex Sans Arabic';color:#3A4460;padding:10px 12px;border-bottom:1px solid #F4F7FC">${r[3]}</td></tr>`).join('')}</tbody>
+          </table>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 22px;border-top:1px solid #EEF2F8;background:#FBFCFE">
+          <div style="font:400 11.5px 'IBM Plex Sans Arabic';color:#98A3BC">يشمل الملف الكامل جميع السجلات والأعمدة التفصيلية.</div>
+          <button onclick="A.downloadReport()" style="border:none;background:#1D3A8A;color:#fff;font:700 12.5px 'IBM Plex Sans Arabic';padding:10px 20px;border-radius:10px;cursor:pointer">تنزيل الملف</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function toastHtml() {
+  if (!S.toast) return '';
+  return `
+    <div style="position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:100;display:flex;align-items:center;gap:11px;background:#131B32;color:#fff;padding:14px 22px;border-radius:14px;box-shadow:0 12px 32px rgba(19,27,50,.3);animation:fadeup .3s ease">
+      <span style="width:26px;height:26px;border-radius:50%;background:#1E8E5A;display:flex;align-items:center;justify-content:center;font:700 14px 'IBM Plex Sans Arabic';flex:none">✓</span>
+      <span style="font:600 13.5px 'IBM Plex Sans Arabic'">${S.toast}</span>
+    </div>`;
+}
+
+/* ================= Render loop ================= */
+const VIEWS = { home: viewHome, faq: viewFaq, login: viewLogin, projects: viewProjects, admin: viewAdmin, form: viewForm, detail: viewDetail, entity: viewEntity, results: viewResults, review: viewReview };
+
+function htmlAll() {
+  const dir = S.lang === 'en' ? 'ltr' : 'rtl';
+  return `
+<div style="max-width:1280px;margin:0 auto;min-height:100vh;background:#F4F7FC;direction:${dir}">
+  ${headerHtml()}
+  ${(VIEWS[S.view] || viewHome)()}
+  ${S.openDd !== null ? '<div onclick="A.closeDd()" style="position:fixed;inset:0;z-index:55"></div>' : ''}
+  ${modalsHtml()}
+  ${reportHtml()}
+  ${toastHtml()}
+</div>`;
+}
+
+const app = document.getElementById('app');
+
+function render() {
+  const active = document.activeElement;
+  const fid = active && active.dataset ? active.dataset.fid : null;
+  let selS = null, selE = null;
+  if (fid && typeof active.selectionStart === 'number') { selS = active.selectionStart; selE = active.selectionEnd; }
+  app.innerHTML = htmlAll();
+  if (fid) {
+    const el = app.querySelector('[data-fid="' + fid + '"]');
+    if (el) {
+      el.focus();
+      if (selS !== null) { try { el.setSelectionRange(selS, selE); } catch (e) { /* non-text input */ } }
+    }
+  }
+  tickCountdown();
+}
+
+function set(patch) {
+  Object.assign(S, typeof patch === 'function' ? patch(S) : patch);
+  render();
+}
+
+/* countdown — targeted DOM update, no re-render */
+function tickCountdown() {
+  const target = new Date('2026-11-30T23:59:59').getTime();
+  let diff = Math.max(0, target - Date.now());
+  const d = Math.floor(diff / 86400000); diff -= d * 86400000;
+  const h = Math.floor(diff / 3600000); diff -= h * 3600000;
+  const m = Math.floor(diff / 60000); diff -= m * 60000;
+  const s = Math.floor(diff / 1000);
+  const pad = (n) => String(n).padStart(2, '0');
+  const vals = { d: String(d), h: pad(h), m: pad(m), s: pad(s) };
+  app.querySelectorAll('[data-cd]').forEach(el => { el.textContent = vals[el.dataset.cd]; });
+}
+setInterval(tickCountdown, 1000);
+
+/* ================= Actions ================= */
+let toastTimer = null;
+const A = {
+  toastMsg(msg) {
+    set({ toast: msg });
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => set({ toast: null }), 3400);
+  },
+  go(view) {
+    const patch = { view, showNotif: false, mobileMenu: false, openDd: null };
+    if (view === 'form') patch.formStep = 1;
+    if (view === 'results') patch.resultsAdmin = false;
+    set(patch);
+    window.scrollTo(0, 0);
+  },
+  setLang(lang) { set({ lang }); },
+  toggleNotif() { set({ showNotif: !S.showNotif }); },
+  toggleMobile() { set({ mobileMenu: !S.mobileMenu }); },
+  closeMobile() { set({ mobileMenu: false }); },
+  doLogin() { this.go('home'); this.toastMsg('تم تسجيل الدخول بنجاح'); },
+  faqToggle(i) { set({ faqOpen: Object.assign({}, S.faqOpen, { [i]: !S.faqOpen[i] }) }); },
+
+  /* projects */
+  setPhase(phase) { set({ phase }); },
+  setProjView(projView) { set({ projView }); },
+  setProjSearch(e) { set({ projSearch: e.target.value }); },
+  vote(i) {
+    const nowOn = !S.voted[i];
+    set({ voted: Object.assign({}, S.voted, { [i]: nowOn }) });
+    if (nowOn) this.toastMsg('تم تسجيل صوتك بنجاح · شكرًا لمشاركتك');
+  },
+  voteBefore() { this.toastMsg('لم يبدأ التصويت بعد · يبدأ في 1 ديسمبر 2026'); },
+  detailVote() {
+    if (S.phase === 'before') return this.toastMsg('لم يبدأ التصويت بعد · يبدأ في 1 ديسمبر 2026');
+    if (S.phase === 'ended') return this.go('results');
+    this.toastMsg('تم تسجيل صوتك بنجاح · شكرًا لمشاركتك');
+  },
+
+  /* dropdowns */
+  ddToggle(key) { set({ openDd: S.openDd === key ? null : key }); },
+  ddChoose(key, i) { set({ filterVals: Object.assign({}, S.filterVals, { [key]: DD_DEFS[key][i] }), openDd: null }); },
+  closeDd() { set({ openDd: null }); },
+
+  /* generic state input */
+  setS(e, key) { set({ [key]: e.target.value }); },
+
+  /* nomination form */
+  setNomName(e) { set({ nomName: e.target.value }); },
+  setNomType(i) { set({ nom: Object.assign({}, S.nom, { type: i === 0 ? 'مشروع' : 'مبادرة' }) }); },
+  nomSet(e, field) { set({ nom: Object.assign({}, S.nom, { [field]: e.target.value }) }); },
+  rowSet(e, key, i, field) {
+    set({ [key]: S[key].map((x, j) => j === i ? Object.assign({}, x, { [field]: e.target.value }) : x) });
+  },
+  rowAdd(key) { set({ [key]: S[key].concat([{ name: '', role: '' }]) }); },
+  rowRemove(key, i) { set({ [key]: S[key].filter((x, j) => j !== i) }); },
+  formNext() {
+    if (S.formStep === 1 && !S.nomName.trim()) {
+      set({ formErr: true });
+      this.toastMsg('يرجى تعبئة الحقول المطلوبة قبل المتابعة');
+      return;
+    }
+    set({ formStep: Math.min(4, S.formStep + 1), formErr: false });
+    window.scrollTo(0, 0);
+  },
+  formPrev() { set({ formStep: Math.max(1, S.formStep - 1) }); window.scrollTo(0, 0); },
+  saveDraft() { this.toastMsg('تم حفظ الترشيح كمسودة · يمكنك العودة لاحقًا'); },
+  submitNom() { set({ view: 'entity' }); this.toastMsg('تم إرسال الترشيح'); window.scrollTo(0, 0); },
+
+  /* admin */
+  setTab(adminTab) { set({ adminTab }); window.scrollTo(0, 0); },
+  setReviewFilter(reviewFilter) { set({ reviewFilter }); },
+  toggleVoting() {
+    const n = !S.votingOpen;
+    set({ votingOpen: n });
+    this.toastMsg(n ? 'تم فتح التصويت للموظفين' : 'تم إغلاق التصويت');
+  },
+  tlChange(e) { set({ tl: Object.assign({}, S.tl, { [e.target.dataset.k]: e.target.value }) }); },
+  tlSave() {
+    const tl = S.tl;
+    const pairs = [['launchS', 'launchE', 'الإطلاق والإعلان'], ['nomS', 'nomE', 'استقبال الترشيحات'], ['voteS', 'voteE', 'التصويت العام'], ['winS', 'winE', 'إعلان الفائزين']];
+    for (const p of pairs) {
+      if (!tl[p[0]] || !tl[p[1]]) return this.toastMsg('يرجى تحديد تاريخي البداية والنهاية لمرحلة ' + p[2]);
+      if (tl[p[0]] > tl[p[1]]) return this.toastMsg('تاريخ النهاية يجب أن يكون بعد البداية في مرحلة ' + p[2]);
+    }
+    this.toastMsg('تم حفظ الجدول الزمني للنسخة الحالية بنجاح');
+  },
+  newEdition() { this.toastMsg('سيتم إنشاء نسخة 2027 عند إغلاق النسخة الحالية وإعلان نتائجها'); },
+  viewEdition(year) {
+    set({ view: 'results', resultsAdmin: true, filterVals: Object.assign({}, S.filterVals, { fresYear: year }) });
+    window.scrollTo(0, 0);
+  },
+
+  /* review workflow */
+  openModal(modal) { set({ modal }); },
+  closeModal() { set({ modal: null }); },
+  confirmApprove() { set({ view: 'admin' }); this.toastMsg('تم اعتماد الترشيح ونشره في صفحة التصويت'); window.scrollTo(0, 0); },
+  confirmReject() { set({ view: 'admin', modal: null, rejectReason: '' }); this.toastMsg('تم رفض الترشيح وإبلاغ الجهة بالسبب'); window.scrollTo(0, 0); },
+  confirmEdit() { set({ view: 'admin', modal: null, editNotes: '' }); this.toastMsg('تمت إعادة الترشيح إلى الجهة لإجراء التعديلات'); window.scrollTo(0, 0); },
+
+  /* results */
+  approveResults() { this.toastMsg('تم اعتماد النتيجة النهائية للنسخة الحالية'); },
+  publishWinners() {
+    if (S.winnersPublished) return this.toastMsg('النتائج منشورة بالفعل للجميع');
+    set({ winnersPublished: true });
+    this.toastMsg('تم نشر الفائزين · أصبحت النتائج مرئية لجميع الموظفين والجهات');
+  },
+
+  /* reports */
+  openReport(type, fmt) { set({ report: { type, fmt } }); },
+  closeReport() { set({ report: null }); },
+  downloadReport() { set({ report: null }); this.toastMsg('جاري تجهيز الملف · سيبدأ التنزيل تلقائيًا'); },
+};
+window.A = A;
+
+render();
+</script>
+</body>
+</html>
